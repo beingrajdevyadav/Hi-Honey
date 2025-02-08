@@ -1,0 +1,904 @@
+[
+    {
+      "id": 1,
+      "title": "Communicate Openly and Honestly",
+      "advice": "Share your thoughts and feelings without fear of judgment.",
+      "description": "Open and honest communication forms the bedrock of any strong relationship. It allows you to understand each other's needs, fears, and desires, creating a space for vulnerability and trust. Don't be afraid to express yourself, even when it's difficult.",
+      "example": "Instead of saying \"You always do this!\", try saying \"I feel hurt when this happens because...\"",
+      "quote": "The beginning of love is the will to let those we love be perfectly themselves, the resolution not to twist them to fit our own image. - Thomas Merton",
+      "lovePercent": 78
+    },
+    {
+      "id": 2,
+      "title": "Embrace Imperfection",
+      "advice": "Nobody's perfect, including you and your partner. Accept each other's flaws.",
+      "description": "Expecting perfection from your partner is a recipe for disappointment.  Everyone has flaws and imperfections. Learn to accept these quirks and celebrate them as part of what makes your partner unique. Focus on their positive qualities and learn to laugh at the small imperfections.",
+      "example": "Instead of criticizing their messy habits, offer to help organize together and find a compromise.",
+      "quote": "To love is nothing. To be loved is something. But to love and be loved, that’s everything. – T. Tolis",
+      "lovePercent": 92
+    },
+    {
+      "id": 3,
+      "title": "Schedule Regular Dates",
+      "advice": "Make time for each other, even when life gets busy.",
+      "description": "Life can get hectic, and it's easy to let date nights fall by the wayside. But carving out dedicated time for each other is crucial for keeping the spark alive.  Plan fun activities, try new restaurants, or simply spend quality time at home, away from distractions.",
+      "example": "Set a recurring weekly or bi-weekly date night, and treat it as a non-negotiable appointment.",
+      "quote": "Love is not about how many days, weeks, or months you’ve been together, it’s all about how much you love each other every day. – Unknown",
+      "lovePercent": 55
+    },
+    {
+      "id": 4,
+      "title": "Practice Active Listening",
+      "advice": "Pay attention when your partner speaks, and truly try to understand their perspective.",
+      "description": "Active listening goes beyond simply hearing the words your partner is saying.  It involves paying attention to their body language, tone of voice, and underlying emotions.  Ask clarifying questions, summarize what you've heard to ensure understanding, and show genuine empathy.",
+      "example": "Instead of interrupting, let your partner finish speaking and then reflect back what you heard them say.",
+      "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. – Helen Keller",
+      "lovePercent": 63
+    },
+    {
+      "id": 5,
+      "title": "Show Appreciation Regularly",
+      "advice": "Express gratitude for the things your partner does, both big and small.",
+      "description": "A little appreciation goes a long way.  Don't take your partner's efforts for granted.  Tell them thank you, acknowledge their contributions, and let them know how much you value them.  Small gestures of appreciation can have a huge impact on your relationship.",
+      "example": "Leave a handwritten note expressing your gratitude, or simply say 'Thank you for making dinner, I really appreciate it.'",
+      "quote": "Love is composed of a single soul inhabiting two bodies. – Aristotle",
+      "lovePercent": 81
+    },
+    {
+      "id": 6,
+      "title": "Learn Each Other's Love Languages",
+      "advice": "Understand how your partner best receives and expresses love.",
+      "description": "Dr. Gary Chapman's '5 Love Languages' provides a framework for understanding how people give and receive love.  These languages include words of affirmation, acts of service, receiving gifts, quality time, and physical touch.  Learn your partner's primary love language and make an effort to express your love in ways that resonate with them.",
+      "example": "If your partner's love language is 'Acts of Service,' offer to help with chores or errands.",
+      "quote": "A life lived in love will never be dull. – Leo Buscaglia",
+      "lovePercent": 42
+    },
+    {
+      "id": 7,
+      "title": "Maintain Your Individuality",
+      "advice": "Don't lose yourself in the relationship. Continue pursuing your own interests and passions.",
+      "description": "While it's important to build a life together, it's equally important to maintain your individuality.  Continue pursuing your hobbies, spending time with friends, and nurturing your own passions.  This will keep you feeling fulfilled and prevent codependency in the relationship.",
+      "example": "Schedule time each week for your own hobbies, even if it means spending some time apart.",
+      "quote": "Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope. – Maya Angelou",
+      "lovePercent": 98
+    },
+    {
+      "id": 8,
+      "title": "Resolve Conflicts Constructively",
+      "advice": "Learn to argue fairly and respectfully.",
+      "description": "Conflicts are inevitable in any relationship. The key is to learn how to resolve them constructively.  Avoid personal attacks, focus on the issue at hand, and be willing to compromise.  Remember that you're on the same team, working towards a common goal.",
+      "example": "Take a break if the argument gets too heated, and agree to revisit the issue later when you're both calmer.",
+      "quote": "Where there is love there is life. – Mahatma Gandhi",
+      "lovePercent": 25
+    },
+    {
+      "id": 9,
+      "title": "Prioritize Physical Intimacy",
+      "advice": "Maintain physical affection and connection.",
+      "description": "Physical intimacy is an important component of a romantic relationship.  This includes not only sex but also simple acts of affection like holding hands, cuddling, and kissing.  Make an effort to maintain physical connection, even when you're feeling stressed or busy.",
+      "example": "Make time for cuddling on the couch while watching a movie, or give your partner a massage after a long day.",
+      "quote": "You know it's love when all you want is that person to be happy, even if you're not part of their happiness. – Julia Roberts",
+      "lovePercent": 31
+    },
+    {
+      "id": 10,
+      "title": "Forgive Each Other",
+      "advice": "Holding onto grudges will only damage your relationship.",
+      "description": "Everyone makes mistakes.  Learn to forgive each other for these mistakes, and don't hold onto grudges.  Forgiveness allows you to move forward and rebuild trust.  It doesn't mean condoning the behavior, but it means letting go of the anger and resentment.",
+      "example": "Instead of dwelling on the past, focus on building a better future together.",
+      "quote": "Love is an irresistible desire to be irresistibly desired. – Robert Frost",
+      "lovePercent": 89
+    },
+    {
+      "id": 11,
+      "title": "Be Playful and Spontaneous",
+      "advice": "Keep the spark alive with fun and unexpected moments.",
+      "description": "Don't let your relationship become stale.  Be playful, spontaneous, and adventurous.  Try new things together, surprise each other with small gestures, and keep the element of fun alive.",
+      "example": "Plan a surprise weekend getaway, or simply leave a silly note in your partner's lunchbox.",
+      "quote": "We are most alive when we're in love. – John Updike",
+      "lovePercent": 15
+    },
+    {
+      "id": 12,
+      "title": "Support Each Other's Dreams",
+      "advice": "Encourage your partner to pursue their goals and aspirations.",
+      "description": "Be your partner's biggest cheerleader.  Support their dreams and aspirations, even if they seem challenging or unrealistic.  Offer encouragement, help them overcome obstacles, and celebrate their successes.",
+      "example": "Attend your partner's performances or presentations, or offer to help them prepare for job interviews.",
+      "quote": "Love is a friendship set to music. – Joseph Campbell",
+      "lovePercent": 67
+    },
+     {
+      "id": 13,
+      "title": "Laugh Together Often",
+      "advice": "Find humor in everyday life and share it with your partner.",
+      "description": "Laughter is a powerful bonding experience.  Find humor in everyday life, share funny stories, and laugh together often.  This will help you lighten the mood, reduce stress, and create positive memories.",
+      "example": "Watch a funny movie together, or share humorous memes and videos.",
+      "quote": "The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That’s what I hope to give you forever. – The Notebook",
+      "lovePercent": 39
+    },
+    {
+      "id": 14,
+      "title": "Be Patient",
+      "advice": "Relationships take time and effort to build.",
+      "description": "Building a strong and lasting relationship takes time and effort. Be patient with each other, especially during challenging times. Don't expect instant gratification, and be willing to work through difficulties together.",
+      "example": "Understand that your partner may need time to process emotions or adjust to new situations.",
+      "quote": "Love doesn't make the world go 'round. Love is what makes the ride worthwhile. – Franklin P. Jones",
+      "lovePercent": 51
+    },
+    {
+      "id": 15,
+      "title": "Say 'I Love You' Regularly",
+      "advice": "Express your love verbally and physically.",
+      "description": "Never underestimate the power of those three little words.  Say 'I love you' regularly, both verbally and physically.  These words can provide comfort, reassurance, and a sense of connection.",
+      "example": "Say 'I love you' before leaving for work, before going to bed, or simply out of the blue.",
+      "quote": "There is only one happiness in this life, to love and be loved. – George Sand",
+      "lovePercent": 7
+    },
+      {
+      "id": 16,
+      "title": "Embrace Change Together",
+      "advice": "Life is full of changes; face them as a team.",
+      "description": "Life is constantly evolving, and so are relationships.  Embrace change together, whether it's a new job, a new home, or a new phase in your lives. Support each other through these transitions and adapt to the new circumstances as a team.",
+      "example": "When faced with a major life change, discuss your concerns and expectations openly, and create a plan together.",
+      "quote": "To love someone deeply gives you strength. Being loved by someone deeply gives you courage. – Lao Tzu",
+      "lovePercent": 21
+    },
+    {
+      "id": 17,
+      "title": "Be Present in the Moment",
+      "advice": "Put away distractions and focus on each other.",
+      "description": "In today's fast-paced world, it's easy to get distracted by technology and other obligations. Make an effort to be fully present when you're with your partner. Put away your phone, turn off the TV, and focus on connecting with them in the moment.",
+      "example": "During dinner, put your phones away and engage in conversation without interruptions.",
+      "quote": "If I know what love is, it is because of you. – Hermann Hesse",
+      "lovePercent": 48
+    },
+    {
+      "id": 18,
+      "title": "Be Honest About Your Needs",
+      "advice": "Communicate your needs and expectations clearly.",
+      "description": "Don't expect your partner to be a mind reader. Be honest about your needs and expectations in the relationship. This includes emotional needs, physical needs, and practical needs. The more transparent you are, the easier it will be for your partner to meet your needs.",
+      "example": "Instead of hinting at what you want, clearly communicate your desires and ask your partner to do the same.",
+      "quote": "Love is an act of endless forgiveness, a tender look which becomes a habit. – Peter Ustinov",
+      "lovePercent": 9
+    },
+    {
+      "id": 19,
+      "title": "Surprise Each Other with Small Gestures",
+      "advice": "Little acts of kindness can make a big difference.",
+      "description": "You don't need grand gestures to show your love and appreciation. Small acts of kindness can be just as meaningful. Surprise your partner with a handwritten note, a favorite snack, or a simple act of service. These small gestures show that you're thinking of them and that you care.",
+      "example": "Leave a love note on their pillow, or make them breakfast in bed.",
+      "quote": "The course of true love never did run smooth. – William Shakespeare",
+      "lovePercent": 75
+    },
+    {
+      "id": 20,
+      "title": "Be Your Partner's Safe Space",
+      "advice": "Create an environment where your partner feels safe to be vulnerable.",
+      "description": "A strong relationship is built on trust and vulnerability. Be your partner's safe space where they can share their fears, insecurities, and dreams without fear of judgment. Listen with empathy, offer support, and create an environment where they feel comfortable being their authentic selves.",
+      "example": "When your partner is feeling down, offer a listening ear and a shoulder to cry on.",
+      "quote": "Gravitation is not responsible for people falling in love. – Albert Einstein",
+      "lovePercent": 34
+    },
+      {
+      "id": 21,
+      "title": "Establish Shared Values",
+      "advice": "Discuss and align on fundamental life principles.",
+      "description": "Having shared values forms a solid foundation for long-term compatibility. Discuss your fundamental life principles – such as family, career, spirituality, and personal growth – to ensure that you're both on the same page. While differences can be enriching, aligning on core values is essential for navigating major life decisions together.",
+      "example": "Talk about your perspectives on financial responsibility, raising children, and career ambitions to identify shared values.",
+      "quote": "Love is like a friendship caught on fire. In the beginning a flame, very pretty, often hot and fierce, but still only light and flickering. As love grows older, our hearts mature and our love becomes as coals, deep-burning and unquenchable. – Bruce Lee",
+      "lovePercent": 8
+    },
+    {
+      "id": 22,
+      "title": "Respect Boundaries",
+      "advice": "Understand and honor each other's personal limits.",
+      "description": "Respecting boundaries is crucial for maintaining a healthy and balanced relationship. Understand your partner's personal limits – whether they relate to physical touch, alone time, or sharing personal information. Never pressure them to do something they're uncomfortable with, and always honor their boundaries.",
+      "example": "If your partner needs alone time to recharge, respect their need for space without taking it personally.",
+      "quote": "Love is a promise; love is a souvenir, once given never forgotten, never let it disappear. – John Lennon",
+      "lovePercent": 100
+    },
+    {
+      "id": 23,
+      "title": "Be Each Other's Biggest Fan",
+      "advice": "Offer unwavering support and encouragement.",
+      "description": "Be your partner's biggest fan and provide unwavering support and encouragement, no matter what challenges they face. Celebrate their successes, big and small, and be there to lift them up when they're feeling down. Your belief in them can make all the difference in achieving their goals.",
+      "example": "Attend their performances or presentations, or offer to help them prepare for important meetings.",
+      "quote": "The best proof of love is trust. – Joyce Brothers",
+      "lovePercent": 5
+    },
+    {
+      "id": 24,
+      "title": "Learn to Compromise",
+      "advice": "Find solutions that work for both of you.",
+      "description": "Compromise is an essential skill for navigating disagreements in a relationship. Learn to find solutions that work for both of you, even if it means giving up something you want. Focus on finding common ground and meeting each other halfway.",
+      "example": "When deciding on a vacation destination, take turns choosing activities that appeal to each of you.",
+      "quote": "The heart wants what it wants. There's no logic to these things. You meet someone and you fall in love and that's that. – Woody Allen",
+      "lovePercent": 95
+    },
+    {
+      "id": 25,
+      "title": "Don't Compare Your Relationship to Others",
+      "advice": "Focus on your own unique journey.",
+      "description": "Every relationship is unique, and comparing yours to others is a recipe for unhappiness. Focus on your own journey, celebrate your strengths, and work on your weaknesses together. Don't let social media or external pressures dictate what your relationship should look like.",
+      "example": "Avoid scrolling through social media and feeling envious of other couples' seemingly perfect lives.",
+      "quote": "Love is when you meet someone who tells you something new about yourself. – Andre Breton",
+      "lovePercent": 28
+    },
+      {
+      "id": 26,
+      "title": "Practice Gratitude Together",
+      "advice": "Regularly acknowledge the positive aspects of your relationship.",
+      "description": "Cultivating an attitude of gratitude can significantly enhance your relationship. Regularly acknowledge the positive aspects of your relationship, both individually and as a couple. Take time to appreciate each other's qualities, the experiences you share, and the overall joy your relationship brings to your lives.",
+      "example": "Start a gratitude journal together, or simply share one thing you're grateful for about each other each day.",
+      "quote": "We loved with a love that was more than love. – Edgar Allan Poe",
+      "lovePercent": 72
+    },
+    {
+      "id": 27,
+      "title": "Apologize Sincerely",
+      "advice": "A genuine apology can heal wounds and rebuild trust.",
+      "description": "When you make a mistake, apologize sincerely and take responsibility for your actions. A genuine apology can heal wounds, rebuild trust, and demonstrate your commitment to the relationship. Avoid making excuses or blaming your partner, and focus on expressing remorse and making amends.",
+      "example": "Instead of saying 'I'm sorry you feel that way,' say 'I'm sorry I hurt you. I'll try to do better in the future.'",
+      "quote": "There is no remedy for love but to love more. – Henry David Thoreau",
+      "lovePercent": 60
+    },
+    {
+      "id": 28,
+      "title": "Create Shared Traditions",
+      "advice": "Develop rituals and routines that are unique to your relationship.",
+      "description": "Shared traditions and rituals create a sense of belonging and strengthen your bond as a couple. Develop routines that are unique to your relationship, whether it's a weekly date night, a yearly vacation, or a special way of celebrating holidays. These traditions provide comfort, stability, and cherished memories.",
+      "example": "Establish a tradition of making a special meal together on your anniversary, or having a game night every Friday.",
+      "quote": "Love is not only something you feel, it is something you do. – David Wilkerson",
+      "lovePercent": 18
+    },
+    {
+      "id": 29,
+      "title": "Be Willing to Grow Together",
+      "advice": "Embrace personal growth and support each other's evolution.",
+      "description": "Relationships evolve over time, and it's important to be willing to grow together as individuals and as a couple. Embrace personal growth, support each other's evolution, and adapt to the changes that come with life. This requires open communication, flexibility, and a willingness to learn and adapt.",
+      "example": "Encourage each other to pursue personal development goals, such as taking a class, learning a new skill, or seeking therapy.",
+      "quote": "Love is never having to say you're sorry. – Erich Segal",
+      "lovePercent": 45
+    },
+    {
+      "id": 30,
+      "title": "Remember the Little Things",
+      "advice": "Pay attention to the small details that make your partner feel loved.",
+      "description": "It's often the little things that make the biggest difference in a relationship. Pay attention to the small details that make your partner feel loved, such as remembering their favorite coffee order, noticing their new haircut, or simply leaving a loving note. These small gestures show that you care and are paying attention.",
+      "example": "Surprise your partner with their favorite flowers, or make them a cup of coffee before they wake up.",
+      "quote": "The best thing to hold onto in life is each other. – Audrey Hepburn",
+      "lovePercent": 84
+    },
+  
+    {
+      "id": 31,
+      "title": "Accept Differences",
+      "advice": "Embrace and appreciate your partner's unique qualities.",
+      "description": "No two people are exactly alike, and differences are what make relationships interesting and dynamic. Embrace and appreciate your partner's unique qualities, even if they sometimes clash with your own. Learn to see differences as opportunities for growth and understanding.",
+      "example": "Instead of trying to change your partner, learn to appreciate their perspective and find common ground.",
+      "quote": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. – 1 Corinthians 13:4",
+      "lovePercent": 97
+    },
+    {
+      "id": 32,
+      "title": "Be Mindful of Your Tone",
+      "advice": "Communicate with kindness and respect.",
+      "description": "The way you say something is just as important as what you say. Be mindful of your tone of voice, especially during disagreements. Speak with kindness and respect, even when you're feeling frustrated or angry. A calm and respectful tone can de-escalate conflicts and promote understanding.",
+      "example": "Avoid using sarcasm, insults, or a condescending tone when communicating with your partner.",
+      "quote": "Only once in your life, I truly believe, you find someone who can completely turn your world around. – Bob Marley",
+      "lovePercent": 12
+    },
+    {
+      "id": 33,
+      "title": "Practice Forgiveness Daily",
+      "advice": "Let go of resentment and choose to move forward.",
+      "description": "Forgiveness is not a one-time event, but rather a daily practice. Let go of resentment, choose to forgive your partner for their mistakes, and focus on moving forward together. Holding onto grudges will only poison the relationship and prevent healing.",
+      "example": "When a past hurt resurfaces, choose to address it with compassion and understanding, rather than dwelling on the anger.",
+      "quote": "True love stories never have endings. – Richard Bach",
+      "lovePercent": 4
+    },
+    {
+      "id": 34,
+      "title": "Ask Open-Ended Questions",
+      "advice": "Encourage deeper conversations and understanding.",
+      "description": "Asking open-ended questions is a great way to encourage deeper conversations and understanding. Instead of asking questions that can be answered with a simple 'yes' or 'no,' ask questions that invite your partner to share their thoughts and feelings. This will help you learn more about each other and strengthen your connection.",
+      "example": "Instead of asking 'Did you have a good day?' ask 'What was the best part of your day?'",
+      "quote": "Love is like the wind, you can't see it but you can feel it. – Nicholas Sparks",
+      "lovePercent": 58
+    },
+    {
+      "id": 35,
+      "title": "Show Affection in Public",
+      "advice": "Express your love and pride in your relationship.",
+      "description": "Showing affection in public is a great way to express your love and pride in your relationship. Hold hands, hug, kiss, or simply put your arm around your partner to show them that you care. These small gestures can make them feel loved and appreciated.",
+      "example": "Hold hands while walking down the street, or give your partner a kiss in the grocery store.",
+      "quote": "To be brave is to love someone unconditionally, without expecting anything in return. – Madonna",
+      "lovePercent": 87
+    },
+      {
+      "id": 36,
+      "title": "Talk About Your Future",
+      "advice": "Share your dreams and aspirations for the future.",
+      "description": "Talking about your future is important for ensuring that you're both on the same page and working towards a shared vision. Share your dreams and aspirations for the future, and discuss how you can support each other in achieving them. This will help you build a stronger connection and create a sense of shared purpose.",
+      "example": "Discuss your long-term goals for your career, family, and personal life.",
+      "quote": "Love is the voice under all silences, the hope which has no opposite in fear; the strength so strong mere force is feebleness: the truth more first than sun, more last than star. – E.E. Cummings",
+      "lovePercent": 66
+    },
+    {
+      "id": 37,
+      "title": "Don't Go to Bed Angry",
+      "advice": "Resolve conflicts before the end of the day.",
+      "description": "Going to bed angry can create distance and resentment in a relationship. Make an effort to resolve conflicts before the end of the day, even if it means staying up a little later. This doesn't mean you have to solve every problem immediately, but it means you should at least try to understand each other's perspectives and find a way to move forward.",
+      "example": "Before going to bed, apologize for your part in the argument and express your desire to resolve the issue in the morning.",
+      "quote": "If you live to be a hundred, I want to live to be a hundred minus one day, so I never have to live without you. – A.A. Milne",
+      "lovePercent": 49
+    },
+    {
+      "id": 38,
+      "title": "Show Empathy",
+      "advice": "Understand and share your partner's feelings.",
+      "description": "Empathy is the ability to understand and share the feelings of another person. Show empathy by putting yourself in your partner's shoes, listening to their concerns, and validating their emotions. This will help you connect with them on a deeper level and provide the support they need.",
+      "example": "When your partner is feeling stressed, acknowledge their feelings and offer to help them find a solution.",
+      "quote": "There is no charm equal to tenderness of heart. – Jane Austen",
+      "lovePercent": 13
+    },
+    {
+      "id": 39,
+      "title": "Be a Team Player",
+      "advice": "Work together to achieve common goals.",
+      "description": "A successful relationship is a partnership. Be a team player by working together to achieve common goals, whether it's managing household chores, raising children, or pursuing shared interests. Support each other's efforts, and celebrate each other's successes.",
+      "example": "Divide household chores fairly, and help each other out when one person is feeling overwhelmed.",
+      "quote": "Love is the extremely difficult realization that something other than oneself is real. – Iris Murdoch",
+      "lovePercent": 37
+    },
+    {
+      "id": 40,
+      "title": "Stay Curious About Each Other",
+      "advice": "Continue to learn and discover new things about your partner.",
+      "description": "Even after years together, there's always more to learn about your partner. Stay curious by asking questions, exploring their interests, and paying attention to their evolving thoughts and feelings. This will help you maintain a sense of connection and prevent your relationship from becoming stagnant.",
+      "example": "Ask your partner about their childhood memories, their professional aspirations, or their favorite hobbies.",
+      "quote": "The best and most beautiful things in this world cannot be seen or even heard, but must be felt with the heart. – Helen Keller",
+      "lovePercent": 53
+    },
+    {
+      "id": 41,
+      "title": "Give Meaningful Compliments",
+      "advice": "Acknowledge and appreciate your partner's unique qualities.",
+      "description": "Generic compliments are nice, but meaningful compliments can be truly impactful. Acknowledge and appreciate your partner's unique qualities, both internal and external. Tell them what you admire about their character, their talents, or their accomplishments. This will make them feel valued and loved.",
+      "example": "Instead of saying 'You look nice,' say 'I love the way you handled that situation with such grace and composure.'",
+      "quote": "Love does not consist of gazing at each other, but in looking together in the same direction. – Antoine de Saint-Exupéry",
+      "lovePercent": 94
+    },
+    {
+      "id": 42,
+      "title": "Be Vulnerable",
+      "advice": "Share your fears and insecurities with your partner.",
+      "description": "Vulnerability is essential for building trust and intimacy in a relationship. Share your fears, insecurities, and doubts with your partner, even if it's difficult. Allowing yourself to be vulnerable will create a deeper connection and allow your partner to support you in a meaningful way.",
+      "example": "Tell your partner about a past experience that still affects you, or share your fears about the future.",
+      "quote": "Love is not about possession. Love is about appreciation. – Osho",
+      "lovePercent": 1
+    },
+    {
+      "id": 43,
+      "title": "Take Responsibility for Your Own Happiness",
+      "advice": "Don't rely on your partner to be your sole source of happiness.",
+      "description": "While your partner can contribute to your happiness, it's important to take responsibility for your own well-being. Don't rely on your partner to be your sole source of happiness. Cultivate your own interests, maintain friendships, and practice self-care. This will make you a more well-rounded and fulfilled partner.",
+      "example": "Pursue your hobbies, spend time with friends, and practice mindfulness or meditation.",
+      "quote": "Love is a canvas furnished by nature and embroidered by imagination. – Voltaire",
+      "lovePercent": 70
+    },
+    {
+      "id": 44,
+      "title": "Make Eye Contact",
+      "advice": "Connect with your partner through your gaze.",
+      "description": "Eye contact is a powerful way to connect with your partner and show that you're engaged in the conversation. Make eye contact while you're talking, listening, or simply spending time together. This will create a sense of intimacy and deepen your connection.",
+      "example": "Look into your partner's eyes while you're telling them how much you love them.",
+      "quote": "I have found the paradox, that if you love until it hurts, there can be no more hurt, only more love. – Mother Teresa",
+      "lovePercent": 33
+    },
+    {
+      "id": 45,
+      "title": "Celebrate Anniversaries and Milestones",
+      "advice": "Acknowledge and commemorate important moments in your relationship.",
+      "description": "Celebrating anniversaries and milestones is a great way to acknowledge and commemorate important moments in your relationship. Take time to reflect on your journey together, express your gratitude, and reaffirm your commitment to each other. This will help you strengthen your bond and create lasting memories.",
+      "example": "Plan a special date night, write each other love letters, or create a scrapbook of your memories together.",
+      "quote": "If you remember me, then I don't care if everyone else forgets. – Haruki Murakami",
+      "lovePercent": 19
+    },
+    {
+      "id": 46,
+      "title": "Share New Experiences Together",
+      "advice": "Try new activities and create lasting memories.",
+      "description": "Sharing new experiences together can help keep the spark alive and create lasting memories. Try new activities, explore new places, or simply step outside your comfort zone together. This will help you bond over shared adventures and create a stronger connection.",
+      "example": "Take a cooking class, go on a hike, or visit a museum you've never been to before.",
+      "quote": "You are my best friend, my human diary, and my other half. You mean the world to me and I love you. – Unknown",
+      "lovePercent": 82
+    },
+      {
+      "id": 47,
+      "title": "Express Your Appreciation for Their Efforts",
+      "advice": "Recognize and acknowledge the work your partner puts into the relationship.",
+      "description": "Relationships require effort from both partners. Express your appreciation for the work your partner puts into the relationship, whether it's planning dates, managing household chores, or simply being there for you when you need them. Recognizing and acknowledging their efforts will make them feel valued and motivated to continue investing in the relationship.",
+      "example": "Say 'Thank you for always making me feel supported' or 'I appreciate you taking care of the kids so I could have some time to myself.'",
+      "quote": "The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves. – Victor Hugo",
+      "lovePercent": 3
+    },
+    {
+      "id": 48,
+      "title": "Be Present When They Need You",
+      "advice": "Offer support and understanding during challenging times.",
+      "description": "Life is full of challenges, and your partner will need your support and understanding during these times. Be present when they need you, whether it's listening to their concerns, offering practical help, or simply providing a comforting presence. Your support can make a world of difference in helping them overcome obstacles.",
+      "example": "Offer to help with tasks, listen to their concerns without judgment, or simply hold their hand and let them know you're there for them.",
+      "quote": "A true love story never ends. – Unknown",
+      "lovePercent": 24
+    },
+    {
+      "id": 49,
+      "title": "Respect Their Opinions, Even When You Disagree",
+      "advice": "Acknowledge and value their perspective.",
+      "description": "It's natural to have different opinions on certain matters. Respect your partner's opinions, even when you disagree. Acknowledge and value their perspective, even if you don't share it. Disagreements don't have to lead to conflict; they can be opportunities for learning and understanding.",
+      "example": "Listen to their point of view without interrupting, and try to understand where they're coming from.",
+      "quote": "Love is what makes you smile when you're tired. – Terri Guillemets",
+      "lovePercent": 57
+    },
+    {
+      "id": 50,
+      "title": "Protect Your Relationship From Outside Influences",
+      "advice":"Guard against negativity from friends, family, or social media.",
+    "description": "Your relationship is a sacred space that needs protection from outside influences. Guard against negativity from friends, family, or social media that could undermine your bond. Set boundaries with those who try to interfere or offer unsolicited advice. Focus on nurturing your relationship and prioritizing your partner's needs above external pressures.",
+    "example": "Politely decline to discuss your relationship with friends who are overly critical or negative. Limit your exposure to social media content that promotes unrealistic relationship expectations.",
+    "quote": "The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. – Nicholas Sparks",
+    "lovePercent": 40
+  },
+  {
+    "id": 51,
+    "title": "Be Your Partner's Confidant",
+    "advice": "Create a safe space for them to share their innermost thoughts and feelings.",
+    "description": "Being a trusted confidant is a vital aspect of a loving relationship. Create a safe space where your partner feels comfortable sharing their innermost thoughts, feelings, and vulnerabilities without fear of judgment. Listen attentively, offer support, and keep their secrets safe. This builds trust and deepens your emotional connection.",
+    "example": "Listen without interrupting when your partner shares their worries or anxieties, and offer reassurance and support.",
+    "quote": "What is love? I have met in the streets a very poor young man who was in love. His hat was old, his coat worn, the water passed through his shoes and the stars through his soul. – Victor Hugo",
+    "lovePercent": 88
+  },
+  {
+    "id": 52,
+    "title": "Schedule Uninterrupted Time Together",
+    "advice": "Make dedicated time for quality moments without distractions.",
+    "description": "In today's busy world, it's easy to let distractions encroach on your time together. Schedule dedicated time for quality moments without interruptions from phones, work, or other commitments. Use this time to connect, communicate, and simply enjoy each other's company. This strengthens your bond and reminds you of the importance of your relationship.",
+    "example": "Turn off your phones during dinner, and dedicate one evening a week to a distraction-free date night.",
+    "quote": "Love is an endless act of forgiveness. Forgiveness is me giving up the right to hurt you for hurting me. – Beyoncé",
+    "lovePercent": 68
+  },
+  {
+    "id": 53,
+    "title": "Be Patient with Their Growth",
+    "advice": "Allow them space to evolve and support their personal development.",
+    "description": "Everyone grows and changes at their own pace. Be patient with your partner's growth, and allow them space to evolve and develop as individuals. Support their personal development, even if it means they're exploring new interests or challenging old beliefs. This shows that you value their well-being and support their journey.",
+    "example": "Encourage them to pursue their passions, even if they're different from your own, and celebrate their achievements.",
+    "quote": "Love is the ultimate expression of the will to live. – Tom Wolfe",
+    "lovePercent": 26
+  },
+  {
+    "id": 54,
+    "title": "Take Responsibility for Your Own Actions",
+    "advice": "Own up to your mistakes and make amends.",
+    "description": "Taking responsibility for your own actions is crucial for maintaining trust and respect in a relationship. Own up to your mistakes, apologize sincerely, and make amends for any harm you've caused. Avoid making excuses or blaming your partner. This demonstrates maturity and a commitment to repairing any damage to the relationship.",
+    "example": "Admit when you're wrong, and apologize for any hurtful words or actions.",
+    "quote": "In dreams and in love there are no impossibilities. – Janos Arnody",
+    "lovePercent": 83
+  },
+  {
+    "id": 55,
+    "title": "Remember the Early Days",
+    "advice": "Reflect on the reasons you fell in love and recreate those moments.",
+    "description": "Over time, it's easy to forget the spark and excitement of the early days of your relationship. Take time to reflect on the reasons you fell in love, and recreate those moments whenever possible. Reminisce about your first date, your first kiss, or other special memories. This helps reignite the passion and remind you of the foundation of your love.",
+    "example": "Look through old photos together, visit the place where you first met, or recreate a memorable date.",
+    "quote": "Love is like war: easy to begin but very hard to stop. – H. L. Mencken",
+    "lovePercent": 77
+  },
+   {
+    "id": 56,
+    "title": "Be Each Other's Sanctuary",
+    "advice": "Create a haven of peace and support within your relationship.",
+    "description": "Life can be stressful and demanding. Strive to make your relationship a sanctuary – a haven of peace, support, and understanding where you can both escape the pressures of the outside world. Be a source of comfort and encouragement for each other, and create a safe space to recharge and reconnect.",
+    "example": "Create a relaxing atmosphere at home, offer a listening ear when your partner is stressed, and prioritize spending quality time together.",
+    "quote": "Love is always bestowed as a gift - freely, willingly, and without expectation. We don't love each other because we need to, we love each other because we want to. – Leo Buscaglia",
+    "lovePercent": 6
+  },
+  {
+    "id": 57,
+    "title": "Respect Their Need for Alone Time",
+    "advice": "Understand and honor their desire for personal space.",
+    "description": "Even in a loving relationship, it's essential to respect each other's need for alone time. Understand that everyone needs personal space to recharge, reflect, and pursue their own interests. Honor their desire for solitude without taking it personally. This demonstrates respect and promotes a healthy balance in the relationship.",
+    "example": "Give them space when they need to unwind, and avoid interrupting their alone time unless it's necessary.",
+    "quote": "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear. – Oscar Wilde",
+    "lovePercent": 90
+  },
+  {
+    "id": 58,
+    "title": "Express Your Needs Clearly",
+    "advice": "Communicate your desires and expectations openly and directly.",
+    "description": "Avoid relying on hints or assumptions; express your needs clearly and directly to your partner. Open and honest communication about your desires and expectations is crucial for preventing misunderstandings and ensuring that your needs are met. This creates a foundation of trust and mutual understanding.",
+    "example": "Instead of saying 'I wish you would do the dishes more often,' say 'I would really appreciate it if you could help with the dishes after dinner.'",
+    "quote": "To love at all is to be vulnerable. Love anything and your heart will be wrung and possibly broken. If you want to make sure of keeping it intact you must give it to no one, not even an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements; lock it up safe in the casket or coffin of your selfishness. But in that casket, safe, dark, motionless, airless, it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. To love is to be vulnerable. – C.S. Lewis",
+    "lovePercent": 16
+  },
+  {
+    "id": 59,
+    "title": "Find Joy in the Everyday Moments",
+    "advice": "Appreciate the simple pleasures of life together.",
+    "description": "Don't wait for grand gestures or special occasions to find joy in your relationship. Appreciate the simple pleasures of life together, such as sharing a meal, taking a walk, or watching a movie. These everyday moments can be just as meaningful as the big ones, and they create a foundation of contentment and happiness.",
+    "example": "Savor the small moments of connection, and express your gratitude for the simple things your partner does for you.",
+    "quote": "We are shaped and fashioned by what we love. – Johann Wolfgang von Goethe",
+    "lovePercent": 32
+  },
+  {
+    "id": 60,
+    "title": "Be Playful and Lighthearted",
+    "advice": "Infuse your relationship with humor and spontaneity.",
+    "description": "A playful and lighthearted attitude can help you navigate challenges and keep the spark alive. Infuse your relationship with humor, spontaneity, and a willingness to be silly. Don't take yourselves too seriously, and find ways to make each other laugh. This creates a fun and joyful atmosphere that strengthens your bond.",
+    "example": "Share jokes, play games, or surprise each other with unexpected acts of kindness.",
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. – Helen Keller",
+    "lovePercent": 50
+  },
+
+  {
+    "id": 61,
+    "title": "Explore Each Other's Interests",
+    "advice": "Show curiosity and enthusiasm for their hobbies and passions.",
+    "description": "Even if you don't share all the same interests, make an effort to explore each other's hobbies and passions. Show genuine curiosity and enthusiasm for what they enjoy. This demonstrates that you care about their well-being and support their individual pursuits. It can also lead to new shared experiences and strengthen your bond.",
+    "example": "Attend a sporting event they enjoy, try a new hobby with them, or simply ask them questions about their passions.",
+    "quote": "Love is the condition in which the happiness of another person is essential to your own. – Robert A. Heinlein",
+    "lovePercent": 99
+  },
+  {
+    "id": 62,
+    "title": "Be Forgiving",
+    "advice": "Let go of past hurts and offer grace.",
+    "description": "Holding onto grudges and past hurts can poison a relationship. Be forgiving, both of your partner and of yourself. Let go of resentment and offer grace. Forgiveness allows you to move forward, rebuild trust, and create a more positive and loving environment.",
+    "example": "Choose to forgive even when it's difficult, and focus on the present and future rather than dwelling on the past.",
+    "quote": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed. – Carl Jung",
+    "lovePercent": 64
+  },
+  {
+    "id": 63,
+    "title": "Listen More Than You Speak",
+    "advice": "Prioritize understanding their perspective over expressing your own.",
+    "description": "In conversations, prioritize listening to understand your partner's perspective rather than focusing on expressing your own. Active listening involves paying attention, asking clarifying questions, and validating their feelings. This shows that you value their thoughts and are genuinely interested in their experiences.",
+    "example": "Resist the urge to interrupt or offer advice until they've finished speaking, and focus on truly understanding their point of view.",
+    "quote": "What greater thing is there for two human souls, than to feel that they are joined for life–to strengthen each other in all labor, to rest on each other in all sorrow, to minister to each other in all pain, to be one with each other in silent unspeakable memories at the moment of the last parting? – George Eliot",
+    "lovePercent": 46
+  },
+  {
+    "id": 64,
+    "title": "Offer Unconditional Support",
+    "advice": "Be a source of strength and encouragement, regardless of circumstances.",
+    "description": "Offer your partner unconditional support, regardless of the circumstances. Be a source of strength and encouragement during challenging times, and celebrate their successes with genuine enthusiasm. Unconditional support creates a foundation of trust and security that allows your relationship to thrive.",
+    "example": "Be there for them when they're facing difficulties at work, and celebrate their achievements with them, no matter how big or small.",
+    "quote": "And remember, as it was written, to love another person is to see the face of God. – Victor Hugo",
+    "lovePercent": 22
+  },
+  {
+    "id": 65,
+    "title": "Make Decisions Together",
+    "advice": "Involve each other in important choices and consider each other's needs.",
+    "description": "Important decisions should be made together, with both partners actively involved in the process. Consider each other's needs, preferences, and values when making choices about your lives. This demonstrates respect, promotes fairness, and strengthens your bond as a couple.",
+    "example": "Discuss financial decisions, career choices, and major life changes together, and strive to find solutions that work for both of you.",
+    "quote": "Love is like a beautiful garden that needs tending to. – Unknown",
+    "lovePercent": 73
+  },
+   {
+    "id": 66,
+    "title": "Be a Source of Comfort",
+    "advice": "Provide solace and reassurance during moments of stress or sadness.",
+    "description": "In moments of stress or sadness, be a source of comfort for your partner. Offer solace, reassurance, and a listening ear. Simple gestures like a hug, a kind word, or a shoulder to cry on can make a world of difference in helping them cope with difficult emotions. This strengthens your emotional bond and shows your commitment to being there for them.",
+    "example": "Offer a comforting hug when they're feeling down, or listen patiently when they need to vent.",
+    "quote": "Perhaps our eyes need to be washed by our tears once in a while, so that we can see life with a clearer view again. – Alex Tan",
+    "lovePercent": 85
+  },
+  {
+    "id": 67,
+    "title": "Give Thoughtful Gifts",
+    "advice": "Choose presents that reflect their personality and interests.",
+    "description": "Gifts don't have to be expensive to be meaningful. Choose presents that reflect your partner's personality and interests. A thoughtful gift shows that you're paying attention to their likes and dislikes and that you care about their happiness. It's the thought and effort behind the gift that truly matters.",
+"example": "Give them a book by their favorite author, a piece of artwork that reflects their style, or a gift certificate to their favorite store.",
+"quote": "Love is the answer, and you know that for sure; Love is a flower, you've got to let it grow. – John Lennon",
+"lovePercent": 43
+},
+{
+"id": 68,
+"title": "Be Present in Shared Activities",
+"advice": "Engage fully in activities you do together, avoiding distractions.",
+"description": "When engaging in activities together, be fully present and avoid distractions. Put away your phone, turn off the TV, and focus on connecting with your partner in the moment. This shows that you value their company and are genuinely interested in sharing the experience with them. It also creates opportunities for meaningful conversation and connection.",
+"example": "Put away your phone during dinner, engage in active listening while watching a movie together, or focus on enjoying the scenery during a walk.",
+"quote": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible. – When Harry Met Sally",
+"lovePercent": 59
+},
+{
+"id": 69,
+"title": "Show Respect for Their Family and Friends",
+"advice": "Treat their loved ones with kindness and consideration.",
+"description": "Their family and friends are an important part of their life, so show respect for their loved ones. Treat them with kindness and consideration, even if you don't always see eye-to-eye. Building positive relationships with their family and friends can strengthen your connection and create a more supportive environment for your relationship.",
+"example": "Make an effort to get to know their family and friends, attend family gatherings, and be respectful of their traditions and values.",
+"quote": "The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. And that's what you've given me. That's what I'd hoped to give you forever. – The Notebook",
+"lovePercent": 27
+},
+{
+"id": 70,
+"title": "Be Honest About Your Feelings",
+"advice": "Express your emotions openly and authentically.",
+"description": "Honesty is the foundation of a strong and trusting relationship. Be honest about your feelings, both positive and negative. Express your emotions openly and authentically, even when it's difficult. This allows your partner to understand you better and respond to your needs in a more meaningful way.",
+"example": "Tell your partner when you're feeling happy, sad, angry, or scared, and explain the reasons behind your emotions.",
+"quote": "Love is that condition in which the happiness of another person is essential to your own. – Robert A. Heinlein",
+"lovePercent": 79
+},
+{
+"id": 71,
+"title": "Make Time for Physical Affection",
+"advice": "Regularly express your love through touch.",
+"description": "Physical affection is an important way to express love and connection. Make time for regular physical affection, such as holding hands, hugging, kissing, and cuddling. These simple gestures can strengthen your bond, reduce stress, and promote feelings of intimacy and closeness.",
+"example": "Hold hands while walking, cuddle on the couch while watching a movie, or give each other a kiss before leaving the house.",
+"quote": "A loving heart is the truest wisdom. – Charles Dickens",
+"lovePercent": 69
+},
+{
+"id": 72,
+"title": "Work Through Challenges Together",
+"advice": "Face difficulties as a team and support each other.",
+"description": "Every relationship faces challenges. The key is to work through those difficulties together as a team. Support each other, communicate openly, and find solutions that work for both of you. Overcoming challenges together can strengthen your bond and make your relationship more resilient.",
+"example": "When facing financial difficulties, discuss your concerns together and create a budget that works for both of you. When dealing with family issues, offer each other support and understanding.",
+"quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. – Helen Keller",
+"lovePercent": 36
+},
+{
+"id": 73,
+"title": "Practice Active Empathy",
+"advice": "Truly try to understand and share your partner's feelings.",
+"description": "Empathy goes beyond simply understanding your partner's feelings; it involves truly trying to share those feelings. Put yourself in their shoes, imagine what it's like to be them, and try to experience their emotions as if they were your own. This deeper level of understanding can create a profound connection and strengthen your bond.",
+"example": "When your partner is feeling stressed about work, try to imagine what it's like to be in their position and offer your support and understanding.",
+"quote": "Love is the master key that opens the gates of happiness. – Oliver Wendell Holmes, Sr.",
+"lovePercent": 56
+},
+{
+"id": 74,
+"title": "Be Supportive of Their Goals",
+"advice": "Encourage their ambitions and help them achieve their dreams.",
+"description": "Be supportive of your partner's goals and aspirations, even if they seem challenging or unconventional. Encourage their ambitions, help them overcome obstacles, and celebrate their successes. Your support can make a world of difference in helping them achieve their dreams and creating a fulfilling life.",
+"example": "Help them prepare for job interviews, offer to proofread their writing, or simply listen and offer encouragement when they're feeling discouraged.",
+"quote": "I love you not only for what you are, but for what I am when I am with you. – Roy Croft",
+"lovePercent": 91
+},
+{
+"id": 75,
+"title": "Create Shared Memories",
+"advice": "Engage in activities together that will be remembered fondly.",
+"description": "Creating shared memories is essential for building a rich and fulfilling relationship. Engage in activities together that will be remembered fondly, whether it's traveling to new places, trying new hobbies, or simply spending quality time together. These memories will strengthen your bond and provide a source of joy and connection for years to come.",
+"example": "Plan a vacation together, attend a concert or sporting event, or create a photo album or scrapbook of your shared experiences.",
+"quote": "The greatest thing you'll ever learn is just to love and be loved in return. – Nat King Cole",
+"lovePercent": 14
+},
+{
+"id": 76,
+"title": "Respect Each Other's Boundaries",
+"advice": "Acknowledge and honor their personal limits and needs.",
+"description": "Every individual has personal boundaries that need to be respected in any relationship. Acknowledge and honor your partner's limits and needs, whether they relate to physical touch, alone time, personal space, or sensitive topics. Respecting their boundaries shows that you value their well-being and are committed to creating a healthy and respectful relationship.",
+"example": "Avoid pressuring them to do things they're uncomfortable with, respect their need for alone time, and be mindful of their sensitivities.",
+"quote": "Love is the bridge between two hearts. – Unknown",
+"lovePercent": 38
+},
+{
+"id": 77,
+"title": "Be Willing to Compromise",
+"advice": "Find mutually agreeable solutions to disagreements.",
+"description": "Compromise is an essential ingredient for a successful relationship. Be willing to find mutually agreeable solutions to disagreements, even if it means giving up something you want. Focus on finding common ground and meeting each other halfway. This shows that you value your partner's needs and are committed to working together to find solutions that benefit both of you.",
+"example": "When deciding on a vacation destination, take turns choosing activities that appeal to each of you. When disagreeing on a household chore, find a fair division of labor that works for both of you.",
+"quote": "Love is not about how many days, weeks, or months you’ve been together, it’s all about how much you love each other every day. – Unknown",
+"lovePercent": 96
+},
+{
+"id": 78,
+"title": "Stay Committed Through Difficult Times",
+"advice": "Reaffirm your commitment to the relationship, even when it's challenging.",
+"description": "Every relationship will face difficult times. The key is to stay committed through those challenges and reaffirm your commitment to the relationship. Remind each other of your love, your shared goals, and your desire to work through any obstacles together. This unwavering commitment can help you weather any storm.",
+"example": "During difficult conversations, remind each other that you're on the same team and that you're committed to finding a solution together. Take time to reconnect and reaffirm your love for each other.",
+"quote": "Love is a language spoken by everyone, but understood only by the heart. – Unknown",
+"lovePercent": 41
+},
+{
+"id": 79,
+"title": "Express Gratitude Regularly",
+"advice": "Acknowledge and appreciate their efforts and contributions.",
+"description": "Express gratitude regularly for your partner's efforts and contributions to the relationship. Acknowledge and appreciate the things they do for you, both big and small. A simple 'thank you' can go a long way in making them feel valued and appreciated. This also fosters a more positive and appreciative environment in the relationship.",
+"example": "Thank them for cooking dinner, running errands, or simply being there for you when you need them.",
+"quote": "Love is when you meet someone who tells you something new about yourself. – Andre Breton",
+"lovePercent": 2
+},
+{
+"id": 80,
+"title": "Prioritize Quality Time Together",
+"advice": "Make dedicated time for focused connection and intimacy.",
+"description": "In today's busy world, it's easy to let quality time slip away. Prioritize making dedicated time for focused connection and intimacy with your partner. Schedule regular date nights, plan weekend getaways, or simply make time for uninterrupted conversations. This dedicated time is crucial for nurturing your bond and keeping the spark alive.",
+"example": "Schedule a weekly date night, plan a romantic getaway, or simply turn off your phones and spend an evening together talking and connecting.",
+"quote": "Love is a friendship set to music. – Joseph Campbell",
+"lovePercent": 76
+},
+{
+"id": 81,
+"title": "Be Each Other's Biggest Cheerleader",
+"advice": "Offer unwavering support and encouragement in their endeavors.",
+"description": "Be your partner's biggest cheerleader, offering unwavering support and encouragement in all their endeavors. Celebrate their successes, big and small, and be there to lift them up when they're feeling discouraged. Your belief in them can make a world of difference in helping them achieve their goals and live a fulfilling life.",
+"example": "Attend their performances or presentations, offer to help them prepare for important events, or simply tell them how proud you are of their accomplishments.",
+"quote": "The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. – The Notebook",
+"lovePercent": 61
+},
+{
+"id": 82,
+"title": "Practice Active Respect",
+"advice": "Show consideration and appreciation for their thoughts and feelings.",
+"description": "Active respect goes beyond simply avoiding disrespect. It involves actively showing consideration and appreciation for your partner's thoughts and feelings. Listen attentively to their opinions, validate their emotions, and treat them with kindness and courtesy at all times. This creates a respectful and supportive environment where both partners feel valued and appreciated.",
+"example": "Listen to their opinions without interrupting, validate their emotions even when you don't agree, and treat them with kindness and courtesy, even during disagreements.",
+"quote": "Love is a canvas furnished by nature and embroidered by imagination. – Voltaire",
+"lovePercent": 80
+},
+{
+"id": 83,
+"title": "Learn to Speak Their Love Language",
+"advice": "Understand how they best give and receive affection.",
+"description": "Understanding your partner's love language is crucial for expressing your affection in a way that truly resonates with them. Learn how they best give and receive love, whether it's through words of affirmation, acts of service, receiving gifts, quality time, or physical touch. This will help you communicate your love more effectively and make them feel more valued and appreciated.",
+"example": "If their love language is words of affirmation, tell them how much you appreciate them and what you admire about them. If their love language is acts of service, offer to help with chores or errands.",
+"quote": "The greatest thing you'll ever learn Is just to love and be loved in return. - Nat King Cole",
+"lovePercent": 47
+},
+{
+"id": 84,
+"title": "Apologize Sincerly and Quickly",
+"advice": "Acknowledge your mistakes and take responsibility.",
+"description": "When you make a mistake, it's important to apologize sincerely and quickly. Acknowledge your errors, take responsibility for your actions, and express remorse for any hurt you've caused. A sincere apology can help repair damaged trust and prevent resentment from building up.",
+"example": "Instead of making excuses, say 'I'm sorry, I was wrong, and I'll do better next time.'",
+"quote": "Love is the force that transforms and improves the Soul of the World. - Paulo Coelho",
+"lovePercent": 35
+},
+{
+"id": 85,
+"title": "Never Stop Dating",
+"advice": "Continue to court and romance your partner throughout the relationship.",
+"description": "The spark of romance shouldn't fade over time. Continue to court and romance your partner throughout the relationship. Plan dates, surprise them with thoughtful gestures, and make an effort to keep the passion alive. This shows that you're still invested in the relationship and that you value their attention and affection.",
+"example": "Plan a romantic date night, surprise them with flowers or a thoughtful gift, or simply tell them how much you appreciate them.",
+"quote": "Love is not only something you feel, it is something you do. - David Wilkerson",
+"lovePercent": 93
+},
+{
+"id": 86,
+"title": "Embrace Silliness Together",
+"advice": "Find moments for laughter and carefree fun in your day.",
+"description": "Don't be afraid to be silly and let loose together. Find moments for laughter and carefree fun in your day. Share jokes, play games, or simply do something spontaneous and unexpected. This can help relieve stress, strengthen your bond, and create a more joyful and playful atmosphere in the relationship.",
+"example": "Have a dance party in the living room, tell silly jokes, or build a fort together.",
+"quote": "Love is something eternal; the aspect may change, but not the essence. - Vincent van Gogh",
+"lovePercent": 54
+},
+{
+"id": 87,
+"title": "Acknowledge and Celebrate Accomplishments",
+"advice": "Recognize and praise both big and small victories.",
+"description": "Acknowledge and celebrate each other's accomplishments, both big and small. Recognizing their efforts and praising their victories will not only boost their self-esteem but also show your support and genuine happiness for their success. Let them know that you're proud of their hard work and dedication.",
+"example": "Congratulate them on a job well done, acknowledge their efforts in achieving a personal goal, or celebrate milestones like anniversaries and birthdays with enthusiasm.",
+"quote": "The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. - The Notebook",
+"lovePercent": 71
+},
+{
+"id": 88,
+"title": "Be Open to Feedback",
+"advice": "Listen to their perspectives on how to improve the relationship.",
+"description": "Creating a safe space for feedback is vital for growth. Be open to hearing your partner's perspectives on how you can improve as a partner and how the relationship can be strengthened. Listen without defensiveness, and view their feedback as an opportunity to grow closer and build a better connection.",
+"example": "Ask them if there's anything you can do to make them feel more loved and appreciated, and listen with an open heart to their suggestions.",
+"quote": "Love is a promise, love is a souvenir, once given never forgotten, never let it disappear. - John Lennon",
+"lovePercent": 86
+},
+{
+"id": 89,
+"title": "Cultivate Shared Dreams",
+"advice": "Discuss and plan for the future you want to create together.",
+"description": "Having shared dreams and aspirations for the future can create a strong sense of purpose and unity. Discuss your long-term goals, travel desires, and life visions, and work together to create a plan for achieving them. This shared journey will deepen your bond and provide a sense of excitement and anticipation for the future.",
+"example": "Plan a dream vacation together, discuss your aspirations for career growth, or work towards a shared financial goal like buying a house.",
+"quote": "Love is the ultimate outlaw. It just won't adhere to any rules. The most any of us can do is to sign on as its accomplice. - Tom Robbins",
+"lovePercent": 52
+},
+{
+"id": 90,
+"title": "Prioritize Self-Care",
+"advice": "Take care of your own well-being to be a better partner.",
+"description": "Prioritizing self-care is not selfish; it's essential for being a good partner. Taking care of your physical, mental, and emotional well-being will allow you to be more present, patient, and supportive in the relationship. It also sets a positive example for your partner to prioritize their own self-care.",
+"example": "Make time for exercise, hobbies, relaxation, and spending time with friends and family.",
+"quote": "To love someone deeply gives you strength. Being loved by someone deeply gives you courage. - Lao Tzu",
+"lovePercent": 30
+},
+{
+"id": 91,
+"title": "Use 'We' Language",
+"advice": "Frame your words to emphasize unity and teamwork.",
+"description": "Subtly shift your language to reflect the 'we' of your relationship. Instead of saying 'I want to,' use 'We want to.' It's a small change, but it subtly reinforces your bond, showing that you consider yourselves a team working towards shared goals.",
+"example": "Instead of 'I'd like to go out to eat tonight,' say 'Wouldn't it be nice if we went out for dinner tonight?'",
+"quote": "Love is composed of a single soul inhabiting two bodies. - Aristotle",
+"lovePercent": 62
+},
+{
+"id": 92,
+"title": "Find Common Ground in Conflicts",
+"advice": "Seek shared objectives during disagreements to foster unity.",
+"description": "Even during heated arguments, actively seek to understand each other's objectives and find common ground. Remind yourselves that you both ultimately desire a healthy relationship and shared happiness. Focusing on what unites you, even when disagreeing, makes resolution easier.",
+"example": "Instead of focusing solely on who is right or wrong, remind yourselves of the overall goal, which might be to improve communication or enhance mutual support.",
+"quote": "Love is not about possession. Love is about appreciation. - Osho",
+"lovePercent": 29
+},
+{
+"id": 93,
+"title": "Schedule 'Relationship Check-Ins'",
+"advice": "Dedicate time to assess and discuss how the relationship feels.",
+"description": "Think of these like routine maintenance for your relationship. Set aside a specific time, perhaps monthly, to openly discuss how the relationship is feeling for each partner. This offers a chance to air grievances, express appreciations, and tweak habits proactively before problems escalate.",
+"example": "Over a relaxed dinner, ask questions like 'What's one thing I've done lately that made you feel especially loved?' or 'Is there anything I could improve on?'",
+"quote": "Love is a decision, it is a judgment, it is a promise. - Erich Fromm",
+"lovePercent": 44
+},
+{
+"id": 94,
+"title": "Embrace Their Quirks",
+"advice": "Learn to love the unique things that make them who they are.",
+"description": "Often, the things we initially find odd about our partners are the quirks that make them wonderfully unique. Instead of trying to change these habits, embrace and even celebrate them. It shows a deep level of acceptance and adoration for the whole person, not just the parts that fit your ideal.",
+"example": "If they have a particular way of organizing their books or a funny habit of singing in the shower, see the charm and endearment in these small peculiarities.",
+"quote": "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear. - Oscar Wilde",
+"lovePercent": 65
+},
+{
+"id": 95,
+"title": "Celebrate Their Individuality",
+"advice": "Encourage and value their distinct passions and pursuits.",
+"description": "A healthy relationship allows room for both partners to thrive as individuals. Encourage your partner to pursue their personal passions, hobbies, and friendships. Celebrating their individuality prevents codependency and keeps the relationship fresh and dynamic.",
+"example": "Support their involvement in a sports team, encourage their artistic endeavors, or simply give them space for a night out with friends.",
+"quote": "Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope. - Maya Angelou",
+"lovePercent": 74
+},
+{
+"id": 96,
+"title": "Be Each Other's Editor",
+"advice": "Offer gentle, constructive advice and encouragement for growth.",
+"description": "Think of yourselves as allies on each other's journey of self-improvement. Offer gentle, constructive criticism and encouragement when you see areas where your partner could grow. This shows that you care about their well-being and want to help them reach their full potential, without being overly critical or controlling.",
+"example": "Offer suggestions for improving their communication style or provide support as they pursue a fitness goal, always with kindness and encouragement.",
+"quote": "Love is an act of endless forgiveness, a tender look which becomes a habit. - Peter Ustinov",
+"lovePercent": 10
+},
+{
+"id": 97,
+"title": "Learn To Fight Fairly",
+"advice": "Establish rules for arguments to avoid hurtful escalation.",
+"description": "Fighting is inevitable, but fighting dirty can be detrimental. Set guidelines for disagreements to maintain respect and prevent personal attacks. Focus on the issue, avoid bringing up past grievances, and take breaks when emotions run high.",
+"example": "Agree to avoid name-calling, interrupting, or using accusatory 'you' statements. Take a time-out if the argument becomes too heated and revisit it later.",
+"quote": "The beginning of love is the will to let those we love be perfectly themselves, the resolution not to twist them to fit our own image. - Thomas Merton",
+"lovePercent": 9
+},
+{
+"id": 98,
+"title": "Practice Intentionality",
+"advice": "Consciously choose actions that nurture the relationship every day.",
+"description": "Don't let your relationship run on autopilot. Intentionally choose actions that nurture your connection, even if they are small. This consistent effort demonstrates commitment and keeps the spark alive, preventing complacency from setting in.",
+"example": "Leave a love note, send a sweet text message, or offer to help with a task without being asked.",
+"quote": "If I know what love is, it is because of you. - Hermann Hesse",
+"lovePercent": 20
+},
+{
+"id": 99,
+"title": "Be Present and Engaged",
+"advice": "Give your undivided attention when spending time together.",
+"description": "In a world of constant distractions, giving your undivided attention is a powerful expression of love. When you're spending time together, be fully present and engaged. Put away your phone, make eye contact, and truly listen to what they have to say. This shows them that they are your priority and that you value their company.",
+"example": "Put your phone on silent during dinner, make eye contact when they're talking, and resist the urge to multitask while spending time together.",
+"quote": "There is only one happiness in this life, to love and be loved. - George Sand",
+"lovePercent": 89
+},
+{
+"id": 100,
+"title": "Celebrate the Milestones",
+"advice": "Mark achievements and significant moments with joy.",
+"description": "From anniversaries to birthdays, job promotions, or personal achievements, celebrate your milestones and mark your significant moments together with joy. This strengthens your shared history and reminds you of the journey you're on as a couple.",
+"example": "Plan a special date, give thoughtful gifts, or create a scrapbook of memories to commemorate your milestones.",
+"quote": "Love is an irresistible desire to be irresistibly desired. - Robert Frost",
+"lovePercent": 73
+}
+]
