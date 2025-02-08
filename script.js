@@ -1,5 +1,5 @@
 const steps = [
-    "Submitting Your Answers",
+    "Submitting Form",
     "Validating Responses",
     "Processing Data",
     "Fetching Results",
@@ -15,7 +15,7 @@ function showNextStep() {
         const stepElement = document.getElementById('step');
         stepElement.innerText = steps[currentStep];
         currentStep++;
-        setTimeout(showNextStep, 2000); // Adjust the time gap (2 seconds) as needed
+        setTimeout(showNextStep, 3000); // Adjust the time gap (2 seconds) as needed
     } else {
         const stepElement = document.getElementById('step');
         stepElement.innerText = "Here are your compatibility results!";
