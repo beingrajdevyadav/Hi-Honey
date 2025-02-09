@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,32 +14,36 @@ body {
     background-color: #f1f1f1;
     padding: 0 30%;
     color: #ddd;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0,0,0,0.3)), url('https://i.pinimg.com/736x/0b/3f/27/0b3f27d11c53e678690c7afa25b73d18.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/0b/3f/27/0b3f27d11c53e678690c7afa25b73d18.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-header{
+
+header {
     padding: 2rem;
-    background-image: linear-gradient( #c2364d4c, #ca465c);
+    background-image: linear-gradient(#c2364d4c, #ca465c);
     color: #fff;
     border-radius: 5px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.logo span{
+
+.logo span {
     font-size: 18px;
     font-weight: 800;
 }
-header p{
+
+header p {
     font-size: 12px;
 }
 
 /* # hero  */
-.hero{
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,16 +53,17 @@ header p{
     text-align: center;
     gap: 10px;
     flex-direction: column;
-    
+
 }
 
-.hero-content{
+.hero-content {
     border-radius: 5px;
     width: 100%;
-    padding: 1rem ;
-    background-image: linear-gradient( #c2364d4c, #ca465c);
+    padding: 1rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
 }
-.hero-content button{
+
+.hero-content button {
     padding: 10px 20px;
     background-color: #fff;
     color: #c2364d;
@@ -69,14 +74,15 @@ header p{
     transition: all 0.5s ease;
     margin-top: 1rem;
 }
-.hero-content button:hover{
+
+.hero-content button:hover {
     background-color: #c2364d;
     color: #fff;
 }
 
 
 /* # form section  */
-.form-section{
+.form-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,29 +92,33 @@ header p{
     text-align: center;
     gap: 10px;
     flex-direction: column;
-    
+
 }
-.form-section-content{
+
+.form-section-content {
     border-radius: 5px;
     width: 100%;
-    padding: 1rem ;
-    background-image: linear-gradient( #c2364d4c, #ca465c);
+    padding: 1rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
 }
-.form-section-content form{
+
+.form-section-content form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin-top: 1rem;
 }
-form input{
+
+form input {
     padding: 10px;
     border: none;
     border-radius: 5px;
     width: 50%;
     display: block;
 }
-form button{
+
+form button {
     width: 50%;
     padding: 10px 20px;
     background-color: #fff;
@@ -119,14 +129,15 @@ form button{
     font-size: 16px;
     transition: all 0.5s ease;
 }
-form button:hover{
+
+form button:hover {
     background-color: #c2364d;
     color: #fff;
 }
 
 
 /* # processing section  */
-.processing-section{
+.processing-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,17 +147,17 @@ form button:hover{
     text-align: center;
     gap: 10px;
     flex-direction: column;
-    
+
 }
 
-.processing-section-content{
+.processing-section-content {
     border-radius: 5px;
     width: 100%;
-    padding: 1rem ;
-    background-image: linear-gradient( #c2364d4c, #ca465c);
+    padding: 1rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
 }
 
-.processing-steps{
+.processing-steps {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,17 +165,20 @@ form button:hover{
     margin-top: 1rem;
     flex-direction: column;
 }
-.processing-steps i{
+
+.processing-steps i {
     font-size: 40px;
 }
-.processing-steps .rotate{
-    animation: rotate 2s   infinite;
-}
-.processing-steps .done{
-    animation: done 2s   infinite;
+
+.processing-steps .rotate {
+    animation: rotate 2s infinite;
 }
 
-.processing-steps button{
+.processing-steps .done {
+    animation: done 2s infinite;
+}
+
+.processing-steps button {
     padding: 10px 20px;
     background-color: #fff;
     color: #c2364d;
@@ -178,6 +192,11 @@ form button:hover{
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.processing-steps button:hover {
+    background-color: #c2364d;
+    color: #fff;
 }
 
 #step {
@@ -190,6 +209,7 @@ form button:hover{
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -199,21 +219,99 @@ form button:hover{
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
         animation-timing-function: ease;
     }
-    
+
 }
 
 @keyframes done {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.2);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
+}
+
+
+/*# Result Section  */
+.result-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.report {
+    border-radius: 5px;
+    width: 100%;
+    padding: 2rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
+    border: 3px solid #ddd;
+    border-left: 5px solid #ddd;
+}
+.report-header .names{
+    text-align: center;
+}
+.report .love-percent{
+    text-align: center;
+    padding:.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.report .score {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.report-item{
+    padding: .5rem 0;
+}
+.report-item .cntr{
+    text-align: center;
+    margin-bottom: .3rem;
+}
+.report-item .txt-jstf{
+    text-align: justify;
+}
+.report-item .tips{
+    font-size: 12px;
+}
+.report-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.report-actions button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #c2364d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+.report-actions button:hover {
+    background-color: #c2364d;
+    color: #fff;
 }
