@@ -73,6 +73,56 @@ header p{
     background-color: #c2364d;
     color: #fff;
 }
+
+
+/* # form section  */
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.form-section-content{
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem ;
+    background-image: linear-gradient( #c2364d4c, #ca465c);
+}
+.form-section-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+}
+form button{
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #c2364d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+form button:hover{
+    background-color: #c2364d;
+    color: #fff;
+}
 #animation-container {
     justify-content: center;
     align-items: center;
