@@ -8,18 +8,23 @@
 }
 
 body {
+    min-height: 100vh;
+    width: 100%;
     padding: 1rem;
     background-color: #f1f1f1;
-    /* background-color: pink; */
     padding: 0 30%;
-    color: #333;
-    /* color: #c2354d; */
+    color: #ddd;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0,0,0,0.3)), url('https://i.pinimg.com/736x/0b/3f/27/0b3f27d11c53e678690c7afa25b73d18.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     padding: 1rem;
-    background-color: #c2354d;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
     color: #fff;
     height: 10vh;
+
 }
 .logo{
     display: flex;
@@ -32,10 +37,46 @@ header{
 header p{
     font-size: 12px;
 }
+
+/* # hero  */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.hero-content{
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem ;
+    background-image: linear-gradient( #c2364d4c, #ca465c);
+}
+.hero-content button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #c2364d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+}
+.hero-content button:hover{
+    background-color: #c2364d;
+    color: #fff;
+}
 #animation-container {
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
