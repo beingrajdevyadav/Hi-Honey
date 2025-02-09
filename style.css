@@ -20,11 +20,10 @@ body {
     background-attachment: fixed;
 }
 header{
-    padding: 1rem;
-    background-image: linear-gradient(#c2364d4c, #ca465c);
+    padding: 2rem;
+    background-image: linear-gradient( #c2364d4c, #ca465c);
     color: #fff;
-    height: 10vh;
-
+    border-radius: 5px;
 }
 .logo{
     display: flex;
@@ -32,7 +31,8 @@ header{
     gap: 5px;
 }
 .logo span{
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 800;
 }
 header p{
     font-size: 12px;
