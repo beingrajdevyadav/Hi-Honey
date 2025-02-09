@@ -11,10 +11,27 @@ body {
     padding: 1rem;
     background-color: #f1f1f1;
     /* background-color: pink; */
-    padding: 2rem 30%;
+    padding: 0 30%;
     color: #333;
+    /* color: #c2354d; */
 }
-
+header{
+    padding: 1rem;
+    background-color: #c2354d;
+    color: #fff;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo span{
+    font-size: 16px;
+}
+header p{
+    font-size: 12px;
+}
 #animation-container {
     justify-content: center;
     align-items: center;
