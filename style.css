@@ -259,8 +259,6 @@ form button:hover {
     width: 100%;
     padding: 2rem;
     background-image: linear-gradient(#c2364d4c, #ca465c);
-    border: 3px solid #ddd;
-    border-left: 5px solid #ddd;
 }
 .report-header .names{
     text-align: center;
@@ -314,4 +312,18 @@ form button:hover {
 .report-actions button:hover {
     background-color: #c2364d;
     color: #fff;
+}
+
+
+/* # footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
+    color: #fff;
+    border-radius: 5px;
 }
