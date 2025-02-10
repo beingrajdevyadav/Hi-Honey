@@ -1,15 +1,40 @@
+// --------------------------------------------
+// # Get Started Button Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for displaying the form on the screen when the user clicks the Get Started button.
+function getStarted() {
+    const getStartedSection = document.getElementById('heroSection');
+    getStartedSection.style.display = 'none';
+
+    const formSection = document.getElementById('formSection');
+    formSection.style.display = 'flex';
+}
+
+// Get the Get Started button and add an event listener to it
+const getStartedButton = document.getElementById('getStarted');
+getStartedButton.addEventListener('click', getStarted);
+
+
+
+// --------------------------------------------
+// # Processing Steps Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for displaying the processing steps on the screen.
 const steps = [
-    "Submitting Form",
-    "Validating Responses",
-    "Processing Data",
-    "Fetching Results",
-    "Analyzing Compatibility",
-    "Generating Report",
-    "Finalizing Results"
+    "Submitting Details...",
+    "Validating Responses...",
+    "Processing Data...",
+    "Fetching Results...",
+    "Analyzing Compatibility...",
+    "Generating Report...",
+    "Finalizing Results..."
 ];
 
 let currentStep = 0;
 
+// Function to show the next step
 function showNextStep() {
     if (currentStep < steps.length) {
         const stepElement = document.getElementById('step');
@@ -22,4 +47,4 @@ function showNextStep() {
     }
 }
 
-window.onload = showNextStep;
+// window.onload = showNextStep;
