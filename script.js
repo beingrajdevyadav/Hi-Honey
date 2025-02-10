@@ -135,6 +135,9 @@ function hanldeGetStarted() {
 // This function is responsible for displaying a toast message on the screen.
 function showToast(message) {
 
+    const ring = new Audio('./media/toast.mp3');
+    ring.play();
+
     const toast = document.getElementById('toastItem');
     toast.innerHTML = message;
 
