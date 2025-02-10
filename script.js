@@ -67,3 +67,13 @@ function hanldeGetStarted(){
     }
     return;
 }
+
+
+// --------------------------------------------
+// # On Window Load Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for running the Get Started function when the window loads.
+window.onload = function() {    
+    hanldeGetStarted();
+}
