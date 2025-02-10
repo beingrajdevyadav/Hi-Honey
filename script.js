@@ -4,9 +4,15 @@
 
 // This function is responsible for displaying the form on the screen when the user clicks the Get Started button.
 function getStarted() {
+
+    // Save the user's action to local storage
+    localStorage.setItem('isGetStarted', true);
+
+    // Hide the Get Started section and display the form section
     const getStartedSection = document.getElementById('heroSection');
     getStartedSection.style.display = 'none';
 
+    // Display the form section
     const formSection = document.getElementById('formSection');
     formSection.style.display = 'flex';
 }
@@ -47,4 +53,17 @@ function showNextStep() {
     }
 }
 
-// window.onload = showNextStep;
+
+// --------------------------------------------
+// # Handle Get Started Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for checking if the user has already clicked the Get Started button and displaying the form if they have.
+function hanldeGetStarted(){
+    const isGetStarted = localStorage.getItem('isGetStarted');
+    if(isGetStarted){
+        document.getElementById('heroSection').style.display = 'none';
+        document.getElementById('formSection').style.display = 'flex';
+    }
+    return;
+}
