@@ -79,6 +79,7 @@ header p {
     background-color: #c2364d;
     color: #fff;
     box-shadow: 0 0 10px #fff;
+    transform:translateY(-5px);
 }
 
 
@@ -93,7 +94,7 @@ header p {
     text-align: center;
     gap: 10px;
     flex-direction: column;
-
+display: none;
 }
 
 .form-section-content {
@@ -142,6 +143,7 @@ form button:hover {
     background-color: #c2364d;
     color: #fff;
     box-shadow: 0 0 10px #fff;
+    transform:translateY(-5px); 
 
 }
 
@@ -157,7 +159,7 @@ form button:hover {
     text-align: center;
     gap: 10px;
     flex-direction: column;
-
+display: none;
 }
 
 .processing-section-content {
@@ -208,6 +210,7 @@ form button:hover {
     background-color: #c2364d;
     color: #fff;
     box-shadow: 0 0 10px #fff;
+    transform:translateY(-5px); 
 
 }
 
@@ -264,6 +267,7 @@ form button:hover {
     color: #fff;
     gap: 10px;
     flex-direction: column;
+    display: none;
 }
 
 .report {
@@ -328,6 +332,7 @@ form button:hover {
     background-color: #c2364d;
     color: #fff;
     box-shadow: 0 0 10px #fff;
+    transform:translateY(-5px); 
 }
 
 
