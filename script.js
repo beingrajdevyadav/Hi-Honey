@@ -260,7 +260,7 @@ openReportButton.addEventListener('click', openReport);
 const tryAgainButton = document.getElementById("tryAgain");
 
 function handleTryAgain(){
-    
+
     window.location.reload();
 
     // show toast 
@@ -272,6 +272,24 @@ function handleTryAgain(){
 
 tryAgainButton.addEventListener("click", handleTryAgain);
 
+// --------------------------------------------
+// # Another Report  Functionality Function 
+// --------------------------------------------
+
+const anotherReportButton = document.getElementById("anotherReport");
+
+function handleAnotherReport(){
+    window.location.reload();
+    
+        // show toast 
+        let toastTxt = `
+        <i class="fa-solid fa-circle-check done"></i>
+        <span>Data Retrieved!</span>
+        `;
+}
+
+
+anotherReportButton.addEventListener("click", handleAnotherReport);
 
 // --------------------------------------------
 // # Handle Get Started Functionality Function 
