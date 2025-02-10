@@ -73,7 +73,8 @@ form.addEventListener('submit', function (event) {
         // console.log('Please, enter your name');
 
         let toastTxt = `
-         <i class="fa-solid fa-heart-circle-plus"></i> <span>Please, Enter Your Name!!</span>`;
+         <i class="fa-solid fa-heart-circle-plus"></i> 
+         <span>Please, Enter Your Name!!</span>`;
 
         showToast(toastTxt);
         return;
@@ -81,7 +82,8 @@ form.addEventListener('submit', function (event) {
         // console.log('Please, enter your partner name');
 
         let toastTxt = `
-            <i class="fa-solid fa-heart-circle-plus"></i> <span>Please, Enter Your Partner Name!!</span>`;
+            <i class="fa-solid fa-heart-circle-plus"></i> 
+            <span>Please, Enter Your Partner Name!!</span>`;
 
         showToast(toastTxt);
         return;
@@ -96,7 +98,8 @@ form.addEventListener('submit', function (event) {
         // console.log('Name and Partner name are not empty');
 
         let toastTxt = `
-             <i class="fa-solid fa-circle-check done"></i> <span>Details Submitted!</span>`;
+             <i class="fa-solid fa-circle-check done"></i> 
+             <span>Details Submitted!</span>`;
 
         showToast(toastTxt);
 
@@ -153,7 +156,7 @@ function showNextStep() {
         const processingIcon = document.getElementById("processingIcon");
         const processingButton = document.getElementById("openReportButton");
 
-        stepElement.innerHTML = `Dear ${userName}, <br> Here are your love report with ${partnerName}!`;
+        stepElement.innerHTML = `Dear ${userName}, <br> Here is your love report with ${partnerName}!`;
         processingIcon.innerHTML = ` <i class="fa-solid fa-heart-circle-check done"></i>`;
         processingButton.style.display = "flex";
 
@@ -250,6 +253,24 @@ function openReport() {
 }
 
 openReportButton.addEventListener('click', openReport);
+
+// --------------------------------------------
+// # Try Again Functionality Function 
+// --------------------------------------------
+const tryAgainButton = document.getElementById("tryAgain");
+
+function handleTryAgain(){
+    
+    window.location.reload();
+
+    // show toast 
+    let toastTxt = `
+    <i class="fa-solid fa-circle-check done"></i>
+    <span>Data Retrieved!</span>
+    `;
+}
+
+tryAgainButton.addEventListener("click", handleTryAgain);
 
 
 // --------------------------------------------
