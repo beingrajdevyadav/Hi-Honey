@@ -141,7 +141,7 @@ function showNextStep() {
     } else {
         const stepElement = document.getElementById('step');
         const processingIcon = document.getElementById("processingIcon");
-        const processingButton = document.getElementById("processingButton");
+        const processingButton = document.getElementById("openReportButton");
 
         stepElement.innerHTML = `Dear ${userName}, <br> Here are your love report with ${partnerName}!`;
         processingIcon.innerHTML = ` <i class="fa-solid fa-heart-circle-check done"></i>`;
@@ -150,11 +150,34 @@ function showNextStep() {
 
         let toastTxt = `
         <i class="fa-solid fa-circle-check done"></i>
-        <span>Love Report Prepared!</span>
+        <span>Love Report Ready!</span>
         `;
         showToast(toastTxt);
     }
 }
+
+// --------------------------------------------
+// # Open Love Report Functionality Function 
+// --------------------------------------------
+const openReportButton =  document.getElementById('openReportButton');
+
+function showReport() {
+    // Hide the processing steps section
+    const processingSteps = document.getElementById('processingSection');   
+    processingSteps.style.display = 'none';
+
+    // Display the love report section
+    const loveReport = document.getElementById('loveReportSection');
+    loveReport.style.display = 'flex';
+
+    let toastTxt = `
+    <i class="fa-solid fa-gift done"></i>
+    <span>${userName}, Congratulations!</span>
+    `;
+    showToast(toastTxt);
+}
+
+openReportButton.addEventListener('click', showReport);
 
 
 // --------------------------------------------
