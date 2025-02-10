@@ -5,8 +5,18 @@
 let isGetStarted = false;
 let userName = '';
 let partnerName = '';
+let loveReports = [];
+// --------------------------------------------
 
 // --------------------------------------------
+// # Function To Fetch Data From data.json file
+// --------------------------------------------
+
+async function fetchData() {
+    const response = await fetch('./data.json');
+    const data = await response.json();
+    return data;
+}
 
 
 // --------------------------------------------
@@ -222,4 +232,9 @@ function showToast(message) {
 // This function is responsible for running the Get Started function when the window loads.
 window.onload = function () {
     hanldeGetStarted();
+    fetchData().then(data => {
+        loveReports = data;
+        // console.log(data);
+        // console.log(loveReports);
+    });
 }
