@@ -5,6 +5,7 @@
 // This function is responsible for displaying the form on the screen when the user clicks the Get Started button.
 function getStarted() {
 
+
     // Save the user's action to local storage
     localStorage.setItem('isGetStarted', true);
 
@@ -15,6 +16,12 @@ function getStarted() {
     // Display the form section
     const formSection = document.getElementById('formSection');
     formSection.style.display = 'flex';
+
+    // show toast message
+    let toastTxt = `
+       <i class="fa-solid fa-heart-circle-check"></i>
+        <span>Most Welcome!! </span>`;
+    showToast(toastTxt);
 }
 
 // Get the Get Started button and add an event listener to it
