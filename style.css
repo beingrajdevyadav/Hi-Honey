@@ -12,9 +12,9 @@ body {
     width: 100%;
     padding: 1rem;
     background-color: #f1f1f1;
-    padding: 0 30%;
+    padding: 1rem 30%;
     color: #ddd;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/0b/3f/27/0b3f27d11c53e678690c7afa25b73d18.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.3)), url('./img/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -335,6 +335,28 @@ display: none;
     transform:translateY(-5px); 
 }
 
+/* # loader section  */
+.loader-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+    /* display: none; */
+}
+
+.loader-section img{
+    width: 300px;
+    opacity: .5;
+    /* height: 100px; */
+}
+
+
+
 
 /* # footer  */
 footer {
@@ -347,4 +369,72 @@ footer {
     background-image: linear-gradient(#c2364d4c, #ca465c);
     color: #fff;
     border-radius: 5px;
+}
+.footer-content{
+    font-size: 12px;
+}
+
+/* # Responsiveness  */
+@media screen and (max-width: 768px) {
+    body {
+        padding:  .5rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero-content button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .form-section {
+        height: 100vh;
+    }
+
+    .form-section-content form {
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .processing-section {
+        height: 100vh;
+    }
+
+    .processing-section-content {
+        width: 100%;
+    }
+
+    .processing-steps button {
+        width: 100%;
+    }
+
+    .result-section {
+        height: 100vh;
+    }
+
+    .report {
+        width: 100%;
+    }
+
+    .report-actions button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+    
 }
