@@ -65,7 +65,7 @@ const form = document.getElementById('form');
 form.addEventListener('submit', function (event) {
     // Prevent the default form submission behavior
     event.preventDefault();
-    console.log('form submitted');
+    // console.log('form submitted');
 
 
     // check if name and partner name are not empty
@@ -179,7 +179,7 @@ function createLoveReport(report) {
     const {lovePercent, advice, example, description, title, quote} = report;
 
     const loveReportContainer = document.getElementById("loveReport");
-    console.log(report);
+    // console.log(report);
 
     let loveReport = `
     <div class="report-header">
