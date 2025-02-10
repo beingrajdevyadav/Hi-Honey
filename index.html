@@ -44,16 +44,17 @@
     <!-- #form section  -->
     <section id="formSection" class="form-section">
 
-        <img src="https://i.pinimg.com/originals/ef/ad/5d/efad5dca495961085ea1fc81e0189894.gif" alt="">
+        <!-- <img src="https://i.pinimg.com/originals/ef/ad/5d/efad5dca495961085ea1fc81e0189894.gif" alt=""> -->
+        <img src="./img/lovers.gif" alt="">
         <div class="form-section-content">
             <div class="form-header">
                 <h2> <i class="fa-solid fa-heart"></i> Enter Your Details</h2>
             </div>
             <form id="form">
 
-                <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                <input type="text" autocomplete="off"  id="name" name="name" placeholder="Enter Your Name">
 
-                <input type="text" id="partner" name="partner" placeholder="Enter Partner's Name">
+                <input type="text" autocomplete="off" id="partner" name="partner" placeholder="Enter Partner's Name">
 
                 <button><i class="fa-solid fa-heart-pulse"></i>Submit</button>
             </form>
@@ -138,6 +139,13 @@
     <img src="/img/loader.gif" alt="">
 </section>
 
+<!-- # toast notification  -->
+    <div class="toast" id="toast">
+        <div class="toast-item">
+            <i class="fa-solid fa-heart"></i>
+            <span>Love Report Generated</span>
+        </div>
+    </div>
 
 
     <!-- # footer section  -->

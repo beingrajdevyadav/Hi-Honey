@@ -23,6 +23,32 @@ getStartedButton.addEventListener('click', getStarted);
 
 
 
+
+// --------------------------------------------
+// # On Form Submit Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for displaying the processing steps on the screen when the user submits the form.
+
+// Get the form element
+const form = document.getElementById('form');
+
+// Add an event listener to the form element
+form.addEventListener('submit', function (event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+    console.log('form submitted');
+    console.log(this.name.value);
+    console.log(this.partner.value);
+    // Display the processing steps
+    // showNextStep();
+});
+
+
+
+
+
+
 // --------------------------------------------
 // # Processing Steps Functionality Function 
 // --------------------------------------------
@@ -59,9 +85,9 @@ function showNextStep() {
 // --------------------------------------------
 
 // This function is responsible for checking if the user has already clicked the Get Started button and displaying the form if they have.
-function hanldeGetStarted(){
+function hanldeGetStarted() {
     const isGetStarted = localStorage.getItem('isGetStarted');
-    if(isGetStarted){
+    if (isGetStarted) {
         document.getElementById('heroSection').style.display = 'none';
         document.getElementById('formSection').style.display = 'flex';
     }
@@ -74,6 +100,6 @@ function hanldeGetStarted(){
 // --------------------------------------------
 
 // This function is responsible for running the Get Started function when the window loads.
-window.onload = function() {    
+window.onload = function () {
     hanldeGetStarted();
 }
