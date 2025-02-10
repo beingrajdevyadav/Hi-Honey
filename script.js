@@ -38,10 +38,37 @@ form.addEventListener('submit', function (event) {
     // Prevent the default form submission behavior
     event.preventDefault();
     console.log('form submitted');
-    console.log(this.name.value);
-    console.log(this.partner.value);
-    // Display the processing steps
-    // showNextStep();
+
+
+    // check if name and partner name are not empty
+    if (this.name.value === '') {
+        // console.log('Please, enter your name');
+
+        let toastTxt = `
+         <i class="fa-solid fa-heart-circle-plus"></i> <span>Please, Enter Your Name!!</span>`;
+
+        showToast(toastTxt);
+        return;
+    } else if (this.partner.value === '') {
+        // console.log('Please, enter your partner name');
+
+        let toastTxt = `
+            <i class="fa-solid fa-heart-circle-plus"></i> <span>Please, Enter Your Partner Name!!</span>`;
+
+        showToast(toastTxt);
+        return;
+    } else {
+        console.log(this.name.value);
+        console.log(this.partner.value);
+        // console.log('Name and Partner name are not empty');
+
+        let toastTxt = `
+            <i class="fa-solid fa-heart-pulse"></i> <span>Form Submitted Successfully!!</span>`;
+
+        showToast(toastTxt);
+        return;
+    }
+
 });
 
 
@@ -92,6 +119,23 @@ function hanldeGetStarted() {
         document.getElementById('formSection').style.display = 'flex';
     }
     return;
+}
+
+// --------------------------------------------
+// # Show Toast Functionality Function 
+// --------------------------------------------
+
+// This function is responsible for displaying a toast message on the screen.
+function showToast(message) {
+
+    const toast = document.getElementById('toastItem');
+    toast.innerHTML = message;
+
+    toast.style.display = 'flex';
+
+    setTimeout(function () {
+        toast.style.display = 'none';
+    }, 3000); // Adjust the time gap (3 seconds) as needed
 }
 
 
