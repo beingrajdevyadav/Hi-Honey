@@ -207,6 +207,7 @@ form button:hover {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    display: none;
 }
 
 .processing-steps button:hover {

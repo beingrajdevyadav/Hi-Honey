@@ -1,4 +1,15 @@
 // --------------------------------------------
+//           Globle Variables
+// --------------------------------------------
+
+let isGetStarted = false;
+let userName = '';
+let partnerName = '';
+
+// --------------------------------------------
+
+
+// --------------------------------------------
 // # Get Started Button Functionality Function 
 // --------------------------------------------
 
@@ -65,14 +76,30 @@ form.addEventListener('submit', function (event) {
         showToast(toastTxt);
         return;
     } else {
-        console.log(this.name.value);
-        console.log(this.partner.value);
+        // set the user name and partner name
+        userName = this.name.value;
+        partnerName = this.partner.value;
+
+        // console.log('Name and Partner name are not empty');
+        // console.log(this.name.value);
+        // console.log(this.partner.value);
         // console.log('Name and Partner name are not empty');
 
         let toastTxt = `
-            <i class="fa-solid fa-heart-pulse"></i> <span>Form Submitted Successfully!!</span>`;
+             <i class="fa-solid fa-circle-check done"></i> <span>Details Submitted!</span>`;
 
         showToast(toastTxt);
+
+        // Hide the form section
+        const formSection = document.getElementById('formSection');
+        formSection.style.display = 'none';
+
+        // Display the processing steps section
+        const processingSteps = document.getElementById('processingSection');
+        processingSteps.style.display = 'flex';
+
+        // Show the next step
+        showNextStep();
         return;
     }
 
@@ -105,11 +132,27 @@ function showNextStep() {
     if (currentStep < steps.length) {
         const stepElement = document.getElementById('step');
         stepElement.innerText = steps[currentStep];
+
+
         currentStep++;
         setTimeout(showNextStep, 3000); // Adjust the time gap (2 seconds) as needed
+
+
     } else {
         const stepElement = document.getElementById('step');
-        stepElement.innerText = "Here are your compatibility results!";
+        const processingIcon = document.getElementById("processingIcon");
+        const processingButton = document.getElementById("processingButton");
+
+        stepElement.innerHTML = `Dear ${userName}, <br> Here are your love report with ${partnerName}!`;
+        processingIcon.innerHTML = ` <i class="fa-solid fa-heart-circle-check done"></i>`;
+        processingButton.style.display = "flex";
+
+
+        let toastTxt = `
+        <i class="fa-solid fa-circle-check done"></i>
+        <span>Love Report Prepared!</span>
+        `;
+        showToast(toastTxt);
     }
 }
 
