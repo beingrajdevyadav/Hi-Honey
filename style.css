@@ -78,6 +78,7 @@ header p {
 .hero-content button:hover {
     background-color: #c2364d;
     color: #fff;
+    box-shadow: 0 0 10px #fff;
 }
 
 
@@ -140,6 +141,8 @@ form button i {
 form button:hover {
     background-color: #c2364d;
     color: #fff;
+    box-shadow: 0 0 10px #fff;
+
 }
 
 
@@ -204,6 +207,8 @@ form button:hover {
 .processing-steps button:hover {
     background-color: #c2364d;
     color: #fff;
+    box-shadow: 0 0 10px #fff;
+
 }
 
 #step {
@@ -297,12 +302,15 @@ form button:hover {
     font-size: 12px;
 }
 .report-actions {
+    border-radius: 5px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     margin-top: 1rem;
+    padding:1rem .5rem;
+    background-image: linear-gradient(#c2364d4c, #ca465c);
 }
 
 .report-actions button {
@@ -319,6 +327,7 @@ form button:hover {
 .report-actions button:hover {
     background-color: #c2364d;
     color: #fff;
+    box-shadow: 0 0 10px #fff;
 }
 
 
