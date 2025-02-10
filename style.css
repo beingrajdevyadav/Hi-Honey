@@ -266,12 +266,14 @@ form button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    min-height: 90vh;
+    height: auto;
     width: 100%;
     color: #fff;
     gap: 10px;
     flex-direction: column;
     display: none;
+    margin: 1rem auto;
 }
 
 .report {
@@ -316,6 +318,11 @@ form button:hover {
     font-size: 12px;
 }
 
+.report-item .bg-drk{
+    background-image: linear-gradient(to left, #c0536536, #ca465c);
+    border-radius: 5px;
+    padding: .5rem;
+}
 .report-actions {
     border-radius: 5px;
     width: 100%;
@@ -458,6 +465,8 @@ footer {
 @media screen and (max-width: 768px) {
     body {
         padding: .5rem;
+        min-height: 100vh;
+        height: auto;
     }
 
     header {
@@ -502,7 +511,8 @@ footer {
     }
 
     .result-section {
-        height: 100vh;
+        height: auto;
+        margin: 1rem auto;
     }
 
     .report {

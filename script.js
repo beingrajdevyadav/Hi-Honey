@@ -157,6 +157,9 @@ function showNextStep() {
         processingIcon.innerHTML = ` <i class="fa-solid fa-heart-circle-check done"></i>`;
         processingButton.style.display = "flex";
 
+        // to create love report
+        let loveScore = Math.floor(Math.random() * 100 + 1);
+        createLoveReport(loveReports[loveScore]);
 
         let toastTxt = `
         <i class="fa-solid fa-circle-check done"></i>
@@ -166,14 +169,73 @@ function showNextStep() {
     }
 }
 
+
+// --------------------------------------------
+//        # Create Report Function 
+// --------------------------------------------
+
+function createLoveReport(report) {
+
+    const {lovePercent, advice, example, description, title, quote} = report;
+
+    const loveReportContainer = document.getElementById("loveReport");
+    console.log(report);
+
+    let loveReport = `
+    <div class="report-header">
+                <h2 class="names">  ${userName} And ${partnerName} </h2>
+                <hr>
+                <div class="love-percent">
+                    <b>Love Score : </b>
+                    <span class="score">${lovePercent}</span>
+                    <span>%</span>
+                </div>
+                <hr>
+            </div>
+
+            <div class="report-body">
+                <div class="report-item">
+                    <h3 class="cntr">${title}</h3>
+                    <hr>
+                </div>
+                <div class="report-item ">
+                     <p class="cntr bg-drk"><b>Advice </b></p>
+                    <p class="txt-jstf"> ${advice}</p>
+                </div>
+                <div class="report-item txt-jstf">
+                    <p class="cntr bg-drk"><b>In Details </b> </p>
+                    <p class="txt-jstf"> ${description}</p>
+                </div>
+                <div class="report-item ">
+                    <p class="cntr bg-drk"> <b>Quote </b></p>
+                    <p class="txt-jstf"> ${quote}</p>
+                </div>
+            </div>
+
+            <div class="report-footer">
+                <hr>
+
+                <div class="report-item">
+                    <p class="txt-jstf tips"> <b>Tips :</b> ${example}</p>
+                </div>
+               
+
+            </div>
+
+    `;
+
+    loveReportContainer.innerHTML = loveReport;
+}
+
+
 // --------------------------------------------
 // # Open Love Report Functionality Function 
 // --------------------------------------------
-const openReportButton =  document.getElementById('openReportButton');
+const openReportButton = document.getElementById('openReportButton');
 
-function showReport() {
+function openReport() {
     // Hide the processing steps section
-    const processingSteps = document.getElementById('processingSection');   
+    const processingSteps = document.getElementById('processingSection');
     processingSteps.style.display = 'none';
 
     // Display the love report section
@@ -182,12 +244,12 @@ function showReport() {
 
     let toastTxt = `
     <i class="fa-solid fa-gift done"></i>
-    <span>${userName}, Congratulations!</span>
+    <span>${userName} Congratulations!</span>
     `;
     showToast(toastTxt);
 }
 
-openReportButton.addEventListener('click', showReport);
+openReportButton.addEventListener('click', openReport);
 
 
 // --------------------------------------------
