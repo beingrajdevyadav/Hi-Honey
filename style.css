@@ -16,7 +16,6 @@ body {
     color: #ddd;
     background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.3)), url('./img/bg.jpg');
     background-size: cover;
-    background-repeat: repeat-y;
     background-position: center;
     /* background-attachment: fixed; */
     position: relative;
@@ -472,9 +471,12 @@ footer {
 /* # Responsiveness  */
 @media screen and (max-width: 768px) {
     body {
+        width: 100%;
         padding: .5rem;
-        /* min-height: 100%; */
-        height: auto;
+        height: 100vh;
+        overflow-x: hidden;
+    background-attachment: fixed;
+
     }
 
     header {
@@ -533,12 +535,14 @@ footer {
     }
 
     .heart-gif {
-        top: -2%;
+        top: 20%;
+        left: 25%;
         width: 100%;
     }
 
     .heart-gif-1 {
         left: 80%;
+        display: none;
     }
 
     .report {
