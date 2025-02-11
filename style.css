@@ -51,13 +51,13 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 65vh;
     width: 100%;
     color: #fff;
     text-align: center;
     gap: 10px;
     flex-direction: column;
-
+z-index: 1000;
 }
 
 .hero-content {
@@ -280,14 +280,7 @@ form button:hover {
     position: relative;
 }
 
-.heart-gif{
-    width: 100%;
-    position: absolute;
-    opacity: .3;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-}
+
 .report {
     border-radius: 5px;
     width: 100%;
@@ -330,11 +323,12 @@ form button:hover {
     font-size: 12px;
 }
 
-.report-item .bg-drk{
+.report-item .bg-drk {
     background-image: linear-gradient(to left, #c0536536, #ca465c);
     border-radius: 5px;
     padding: .5rem;
 }
+
 .report-actions {
     border-radius: 5px;
     width: 100%;
@@ -389,9 +383,11 @@ form button:hover {
     animation: toastShake 3s infinite;
     display: none;
 }
+
 .toast-item.show {
     display: flex;
 }
+
 .toast-item i {
     font-size: 24px;
     animation: toastIcon 1s infinite;
@@ -416,7 +412,7 @@ form button:hover {
 @keyframes toastShake {
     0% {
         transform: translateX(20px);
-    
+
     }
 
     25% {
@@ -437,6 +433,24 @@ form button:hover {
 
 }
 
+
+.heart-gif {
+    width: 35%;
+    position: absolute;
+    opacity: .2;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.heart-gif-1{
+    top: 25%;
+    left: 85%;
+}
+.heart-gif-2{
+    top: 70%;
+    left: 15%;
+}
 
 /* # footer  */
 footer {
@@ -480,9 +494,11 @@ footer {
         align-items: center;
         gap: 5px;
     }
-.hero-content button i{
-    font-size: 35px;
-}
+
+    .hero-content button i {
+        font-size: 35px;
+    }
+
     .form-section {
         height: 100vh;
     }
@@ -515,9 +531,16 @@ footer {
         height: auto;
         margin: 1rem auto;
     }
-    .heart-gif{
+
+    .heart-gif {
         top: -2%;
+        width: 100%;
     }
+
+    .heart-gif-1 {
+        left: 80%;
+    }
+
     .report {
         width: 100%;
     }
