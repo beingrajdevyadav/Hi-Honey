@@ -6,6 +6,7 @@ let isGetStarted = false;
 let userName = '';
 let partnerName = '';
 let loveReports = [];
+let currentReport = {};
 // --------------------------------------------
 
 // --------------------------------------------
@@ -163,7 +164,7 @@ function showNextStep() {
         // to create love report
         let loveScore = Math.floor(Math.random() * 100 + 1);
         createLoveReport(loveReports[loveScore]);
-
+currentReport = {...loveReports[loveScore], name:userName, partner:partnerName};
         let toastTxt = `
         <i class="fa-solid fa-circle-check done"></i>
         <span>Love Report Ready!</span>
@@ -279,11 +280,40 @@ tryAgainButton.addEventListener("click", handleTryAgain);
 // --------------------------------------------
 const shareOnWhatsAppButton = document.getElementById("shareOnWhatsApp");
 function handleShareOnWhatsApp(){
-        const shareMessage = encodeURIComponent("Check out this awesome website!");
-        window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
+    const{name, partner, lovePercent, advice, quote, description, example, title} = currentReport;
+    console.log(currentReport);
+
+    let reportMessage = `
+    Dear ${name}, your love report with ${partner} looks amazing . 
+
+    Kindly, read it and follow it for more loving , caring , understanding as well as supportive relationship.
+
+    Love Score : ${lovePercent} %,
+
+    Remedies : ${title},
+
+    Advice : ${advice}, 
+
+    Description : ${description},
+
+    Quotes : ${quote},
+
+    Tips : ${example}.
+
+    "Two Hearts, one beat. May your love continue to grow stronger with each passing day, filling your lives with joy, laughter, and adventure. Wishing you forever together!"
+    - Rajdev Yadav
+
+    Thanks for using https://tryhoney.netlify.app . ❤🙌
+    `;
+
+        // const shareMessage = encodeURIComponent("Check out this awesome website!");
+        // window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
 }
 
 shareOnWhatsAppButton.addEventListener("click", handleShareOnWhatsApp);
+
+
+
 // --------------------------------------------
 // # Handle Get Started Functionality Function 
 // --------------------------------------------
@@ -325,6 +355,7 @@ function showToast(message) {
 
 // This function is responsible for running the Get Started function when the window loads.
 window.onload = function () {
+    currentReport = {};
     hanldeGetStarted();
     fetchData().then(data => {
         loveReports = data;
