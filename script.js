@@ -148,7 +148,7 @@ function showNextStep() {
 
 
         currentStep++;
-        setTimeout(showNextStep, 3000); // Adjust the time gap (2 seconds) as needed
+        setTimeout(showNextStep, 2000); // Adjust the time gap (2 seconds) as needed
 
 
     } else {
@@ -272,25 +272,18 @@ function handleTryAgain(){
 
 tryAgainButton.addEventListener("click", handleTryAgain);
 
-// --------------------------------------------
-// # Another Report  Functionality Function 
-// --------------------------------------------
 
-const anotherReportButton = document.getElementById("anotherReport");
 
-function handleAnotherReport(){
-    window.location.reload();
-    
-        // show toast 
-        let toastTxt = `
-        <i class="fa-solid fa-circle-check done"></i>
-        <span>Data Retrieved!</span>
-        `;
+// --------------------------------------------
+// # Share On WhatsApp  Functionality Function 
+// --------------------------------------------
+const shareOnWhatsAppButton = document.getElementById("shareOnWhatsApp");
+function handleShareOnWhatsApp(){
+        const shareMessage = encodeURIComponent("Check out this awesome website!");
+        window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
 }
 
-
-anotherReportButton.addEventListener("click", handleAnotherReport);
-
+shareOnWhatsAppButton.addEventListener("click", handleShareOnWhatsApp);
 // --------------------------------------------
 // # Handle Get Started Functionality Function 
 // --------------------------------------------
