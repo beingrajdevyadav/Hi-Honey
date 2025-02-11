@@ -306,8 +306,8 @@ function handleShareOnWhatsApp(){
     Thanks for using https://tryhoney.netlify.app . ❤🙌
     `;
 
-        // const shareMessage = encodeURIComponent("Check out this awesome website!");
-        // window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
+        const shareMessage = encodeURIComponent(reportMessage);
+        window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
 }
 
 shareOnWhatsAppButton.addEventListener("click", handleShareOnWhatsApp);
