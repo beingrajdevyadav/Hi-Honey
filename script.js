@@ -164,7 +164,7 @@ function showNextStep() {
         // to create love report
         let loveScore = Math.floor(Math.random() * 100 + 1);
         createLoveReport(loveReports[loveScore]);
-currentReport = {...loveReports[loveScore], name:userName, partner:partnerName};
+        currentReport = { ...loveReports[loveScore], name: userName, partner: partnerName };
         let toastTxt = `
         <i class="fa-solid fa-circle-check done"></i>
         <span>Love Report Ready!</span>
@@ -180,7 +180,7 @@ currentReport = {...loveReports[loveScore], name:userName, partner:partnerName};
 
 function createLoveReport(report) {
 
-    const {lovePercent, advice, example, description, title, quote} = report;
+    const { lovePercent, advice, example, description, title, quote } = report;
 
     const loveReportContainer = document.getElementById("loveReport");
     // console.log(report);
@@ -260,7 +260,7 @@ openReportButton.addEventListener('click', openReport);
 // --------------------------------------------
 const tryAgainButton = document.getElementById("tryAgain");
 
-function handleTryAgain(){
+function handleTryAgain() {
 
     window.location.reload();
 
@@ -279,35 +279,41 @@ tryAgainButton.addEventListener("click", handleTryAgain);
 // # Share On WhatsApp  Functionality Function 
 // --------------------------------------------
 const shareOnWhatsAppButton = document.getElementById("shareOnWhatsApp");
-function handleShareOnWhatsApp(){
-    const{name, partner, lovePercent, advice, quote, description, example, title} = currentReport;
+function handleShareOnWhatsApp() {
+    const { name, partner, lovePercent, advice, quote, description, example, title } = currentReport;
     console.log(currentReport);
 
     let reportMessage = `
-    Dear ${name}, your love report with ${partner} looks amazing . 
+    
+    Dear ${name}, your love report with ${partner} looks absolutely amazing 🌟💖.
+    
+    Kindly, dive into it and let it guide you towards a more loving, caring, understanding, and supportive relationship. 💞✨
+    
+    **Love Score**: ${lovePercent}% ❤️
+    
+    **Remedies**: ${title} 🛠️
+    
+    **Advice**: ${advice} 📝
+    
+    **Description**: ${description} 📖
+    
+    **Quotes**: ${quote} 🗨️
+    
+    **Tips**: ${example} 💡
+    
+    
+    Thank you for choosing [tryhoney.netlify.app](https://tryhoney.netlify.app) 🌐. We wish you boundless love and happiness! ❤🙌
+        
+    *"Two hearts, one beat. May your love continue to grow stronger with each passing day, filling your lives with endless joy, laughter, and adventure. Wishing you a forever filled with bliss and togetherness!"* 🌈✨
+    
+    - Rajdev Yadav 📝
+    
+        
+        `;
+    
 
-    Kindly, read it and follow it for more loving , caring , understanding as well as supportive relationship.
-
-    Love Score : ${lovePercent} %,
-
-    Remedies : ${title},
-
-    Advice : ${advice}, 
-
-    Description : ${description},
-
-    Quotes : ${quote},
-
-    Tips : ${example}.
-
-    "Two Hearts, one beat. May your love continue to grow stronger with each passing day, filling your lives with joy, laughter, and adventure. Wishing you forever together!"
-    - Rajdev Yadav
-
-    Thanks for using https://tryhoney.netlify.app . ❤🙌
-    `;
-
-        const shareMessage = encodeURIComponent(reportMessage);
-        window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
+    const shareMessage = encodeURIComponent(reportMessage);
+    window.open(`https://api.whatsapp.com/send?text=${shareMessage}`, '_blank');
 }
 
 shareOnWhatsAppButton.addEventListener("click", handleShareOnWhatsApp);
