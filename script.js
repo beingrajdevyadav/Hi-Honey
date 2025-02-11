@@ -285,31 +285,44 @@ function handleShareOnWhatsApp() {
 
     let reportMessage = `
     
-    Dear ${name}, your love report with ${partner} looks absolutely amazing 🌟💖.
+Dear **${name}**, your love report with **${partner}** is truly extraordinary! 🌟💖
+
+Dive deep into this report and let it guide you towards a relationship that is more loving, caring, understanding, and supportive. Embrace each word and find the beauty in every piece of advice and insight. 💞✨
+
+**Love Score**: ${lovePercent}% ❤️💕
+
+A high love score indicates the depth and strength of your connection with **${partner}**. Cherish this bond and nurture it with all your heart. Every moment shared is a step towards a beautiful journey together. 🌹
+
+**Remedies**: ${title} 💡
+
+These remedies are designed to bring you closer and enhance the harmony in your relationship. Follow them diligently and watch your love blossom into something even more wonderful. 🌸
+
+**Advice**: ${advice} 📜
+
+Consider this advice as a treasure trove of wisdom. It holds the keys to a successful relationship. Remember, love is not just a feeling, it's a commitment to understanding, patience, and constant growth. 🌟
+
+**Description**: ${description} 📖
+
+Read through this detailed description to get a deeper insight into your unique relationship dynamics. Every bit of information is crafted to help you navigate the beautiful journey you and **${partner}** are on. 🚀
+
+**Quotes**: ${quote} 🗨️
+
+These quotes are not just words; they are pearls of wisdom to inspire and motivate you. Let them remind you of the beauty of love and the endless possibilities it holds. 🌈
+
+**Tips**: ${example} 🌹
+
+These tips are practical steps to foster a stronger and more fulfilling relationship. Implement them and witness the magic unfold in your love story. 💖
+
+
+Thank you for choosing https://tryhoney.netlify.app 🌐. We wish you boundless love and happiness! May your days be filled with joy, laughter, and endless adventures together! 🌟💞✨
+
+*"Two hearts, one beat. May your love continue to grow stronger with each passing day, filling your lives with endless joy, laughter, and adventure. Wishing you a forever filled with bliss and togetherness!"* 🌈✨💖
+
+- Rajdev Yadav 📝
+
     
-    Kindly, dive into it and let it guide you towards a more loving, caring, understanding, and supportive relationship. 💞✨
-    
-    **Love Score**: ${lovePercent}% ❤️
-    
-    **Remedies**: ${title} 🛠️
-    
-    **Advice**: ${advice} 📝
-    
-    **Description**: ${description} 📖
-    
-    **Quotes**: ${quote} 🗨️
-    
-    **Tips**: ${example} 💡
-    
-    
-    Thank you for choosing [tryhoney.netlify.app](https://tryhoney.netlify.app) 🌐. We wish you boundless love and happiness! ❤🙌
-        
-    *"Two hearts, one beat. May your love continue to grow stronger with each passing day, filling your lives with endless joy, laughter, and adventure. Wishing you a forever filled with bliss and togetherness!"* 🌈✨
-    
-    - Rajdev Yadav 📝
-    
-        
-        `;
+    `;
+
     
 
     const shareMessage = encodeURIComponent(reportMessage);
