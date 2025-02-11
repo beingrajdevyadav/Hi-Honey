@@ -275,10 +275,19 @@ form button:hover {
     color: #fff;
     gap: 10px;
     flex-direction: column;
-    display: none;
+    /* display: none; */
     margin: 1rem auto;
+    position: relative;
 }
 
+.heart-gif{
+    width: 100%;
+    position: absolute;
+    opacity: .3;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
 .report {
     border-radius: 5px;
     width: 100%;
@@ -356,25 +365,7 @@ form button:hover {
     transform: translateY(-5px);
 }
 
-/* # loader section  */
-.loader-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    gap: 10px;
-    flex-direction: column;
-    display: none;
-}
 
-.loader-section img {
-    width: 300px;
-    opacity: .5;
-    /* height: 100px; */
-}
 
 
 /* # toast notification  */
@@ -524,7 +515,9 @@ footer {
         height: auto;
         margin: 1rem auto;
     }
-
+    .heart-gif{
+        top: 18%;
+    }
     .report {
         width: 100%;
     }
