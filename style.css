@@ -275,7 +275,7 @@ form button:hover {
     color: #fff;
     gap: 10px;
     flex-direction: column;
-    /* display: none; */
+    display: none;
     margin: 1rem auto;
     position: relative;
 }
@@ -516,7 +516,7 @@ footer {
         margin: 1rem auto;
     }
     .heart-gif{
-        top: 18%;
+        top: -2%;
     }
     .report {
         width: 100%;
