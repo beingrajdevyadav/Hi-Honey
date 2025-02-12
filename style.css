@@ -475,7 +475,7 @@ footer {
         height: 100vh;
         overflow-x: hidden;
         background-attachment: fixed;
-        border: 3px solid #ddd;
+        /* border: 3px solid #ddd; */
     }
 
     header {
@@ -529,11 +529,11 @@ footer {
     }
 
     .result-section {
-        height: 55vh;
+        max-height: 55vh;
         /* margin: 1rem auto; */
         overflow-y: auto;
         padding-bottom: 1rem;
-        border: 2px solid #ddd;
+        /* border: 2px solid #ddd; */
         justify-content: space-around;
     }
 
