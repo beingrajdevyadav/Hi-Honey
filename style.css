@@ -9,7 +9,6 @@
 
 body {
     min-height: 100vh;
-    width: 100%;
     padding: 1rem;
     background-color: #f1f1f1;
     padding: 1rem 30%;
@@ -55,7 +54,7 @@ header p {
     text-align: center;
     gap: 10px;
     flex-direction: column;
-z-index: 1000;
+    z-index: 1000;
 }
 
 .hero-content {
@@ -273,7 +272,7 @@ form button:hover {
     color: #fff;
     gap: 10px;
     flex-direction: column;
-    /* display: none; */
+    display: none;
     margin: 1rem auto;
     position: relative;
 }
@@ -441,11 +440,12 @@ form button:hover {
     transform: translate(-50%, -50%);
 }
 
-.heart-gif-1{
+.heart-gif-1 {
     top: 25%;
     left: 85%;
 }
-.heart-gif-2{
+
+.heart-gif-2 {
     top: 70%;
     left: 15%;
 }
@@ -474,8 +474,8 @@ footer {
         padding: .5rem;
         height: 100vh;
         overflow-x: hidden;
-    background-attachment: fixed;
-
+        background-attachment: fixed;
+        border: 3px solid #ddd;
     }
 
     header {
@@ -483,7 +483,7 @@ footer {
     }
 
     .hero {
-        height: 100vh;
+        height: 65vh;
     }
 
     .hero-content button {
@@ -501,7 +501,7 @@ footer {
     }
 
     .form-section {
-        height: 100vh;
+        height: 65vh;
     }
 
     .form-section-content form {
@@ -517,7 +517,7 @@ footer {
     }
 
     .processing-section {
-        height: 100vh;
+        height: 65vh;
     }
 
     .processing-section-content {
@@ -529,27 +529,29 @@ footer {
     }
 
     .result-section {
-        height: auto;
-        margin: 1rem auto;
-    }
-
-    .heart-gif {
-        top: 20%;
-        left: 25%;
-        width: 100%;
-    }
-
-    .heart-gif-1 {
-        left: 80%;
-        display: none;
+        height: 55vh;
+        /* margin: 1rem auto; */
+        overflow-y: auto;
+        padding-bottom: 1rem;
+        border: 2px solid #ddd;
+        justify-content: space-around;
     }
 
     .report {
         width: 100%;
+
     }
 
     .report-actions button {
         width: 100%;
+    }
+
+    .heart-gif {
+        top: 15%;
+        left: 25%;
+        width: 100%;
+        display: none;
+
     }
 
     footer {

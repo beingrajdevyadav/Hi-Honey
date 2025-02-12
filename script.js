@@ -39,6 +39,8 @@ function getStarted() {
     const formSection = document.getElementById('formSection');
     formSection.style.display = 'flex';
 
+   
+
     // show toast message
     let toastTxt = `
        <i class="fa-solid fa-heart-circle-check"></i>
@@ -156,6 +158,10 @@ function showNextStep() {
         const stepElement = document.getElementById('step');
         const processingIcon = document.getElementById("processingIcon");
         const processingButton = document.getElementById("openReportButton");
+const processingHeart = document.getElementById("processingHeart");
+
+
+processingHeart.style.display = "none";
 
         stepElement.innerHTML = `Dear ${userName}, <br> Here is your love report with ${partnerName}!`;
         processingIcon.innerHTML = ` <i class="fa-solid fa-heart-circle-check done"></i>`;
